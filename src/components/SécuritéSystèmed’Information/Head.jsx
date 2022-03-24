@@ -1,20 +1,18 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Head() {
   return (
     <>
-      <section id="clients" className="clients" style={{ marginTop: "10%" }}>
+      <section id="clients" className="clients" style={{ marginTop: "95px" }}>
         <div className="container">
           <div className="row" data-aos="zoom-in">
             <div
-              className="col-lg-12 col-md-12 col-12 d-flex justify-content-center "
+              className="col-lg-12 col-md-12 col-12 d-flex justify-content-start "
               style={{ fontSize: "20px" }}
             >
-              <NavLink to={"/"}>
-                Aliance it <i class="fa fa-terminal" aria-hidden="true"></i>
-              </NavLink>{" "}
-              Solutions IT :
+              <Link to="/"> Aliance it <i className="fa fa-terminal" aria-hidden="true"></i>
+              </Link>&nbsp;	Solutions IT :
             </div>
           </div>
         </div>

@@ -15,15 +15,19 @@ import Information from './SécuritéSystèmed’Information/Information'
 function Index() {
   return (
     <>
-    <ServiceOffer/>
-    <Suppliers/>
-    <Count/>
-    <OurJobs/>
-    <Team/>
-    <SolutionIt/>
-    <Sécurité/>
-    <Contact/>
-    <Features/>
+    <ServiceOffer/>  
+    
+    <main id="main">
+      <Suppliers/>
+      <Count/>
+      <OurJobs/>
+      <Team/>
+      <SolutionIt/>
+      <Sécurité/>
+      <Contact/>
+      <Features/>
+    </main>
+    
     </>
   )
 }

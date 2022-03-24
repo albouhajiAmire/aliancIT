@@ -1,10 +1,12 @@
 import React from "react";
 import Img from "../../assets/img/hero-img.png";
-import "../../assets/css/general.css";function ServiceOffer() {
+
+function ServiceOffer() {
+
   return (
     <>
       <section id="hero" className="d-flex align-items-center">
-        <div className="container">
+        <div className="container"> 
           <div className="row">
             <div
               className="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
@@ -19,13 +21,14 @@ import "../../assets/css/general.css";function ServiceOffer() {
                 <a href="#about" className="btn-get-started scrollto">
                 Commencer
                 </a>
-                <a
-                  href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
-                  className="glightbox btn-watch-video"
-                >
-                  <i class="fa fa-play-circle-o"></i>
+
+
+                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" target="_blank" className="btn-watch-video" >
+                  <i className="fa-solid fa-circle-play"></i>
                   <span>Regarder la vidéo</span>
                 </a>
+
+
               </div>
             </div>
             <div

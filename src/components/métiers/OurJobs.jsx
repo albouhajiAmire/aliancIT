@@ -29,8 +29,8 @@ function OurJobs() {
                     >
                       <span>01</span> L’installation et la refonte de réseau
                       d’entreprise:
-                      <i class="fa fa-arrow-down" aria-hidden="true"></i>
-                      {/* <i class="fa fa-eye-slash" aria-hidden="true"></i> */}
+                      <i className="fa fa-arrow-down" aria-hidden="true"></i>
+                      {/* <i className="fa fa-eye-slash" aria-hidden="true"></i> */}
                     </a>
                     <div
                       id="accordion-list-1"
@@ -51,7 +51,7 @@ function OurJobs() {
                       className="collapsed"
                     >
                       <span>02</span> Système d’exploitation :
-                      <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                      <i className="fa fa-arrow-down" aria-hidden="true"></i>
                     </a>
                     <div
                       id="accordion-list-2"
@@ -69,7 +69,7 @@ function OurJobs() {
                       className="collapsed"
                     >
                       <span>03</span> Système de gestion de base de donnée :
-                      <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                      <i className="fa fa-arrow-down" aria-hidden="true"></i>
                     </a>
                     <div
                       id="accordion-list-3"
@@ -87,7 +87,7 @@ function OurJobs() {
                       className="collapsed"
                     >
                       <span>03</span> Sécurité Active et passive :
-                      <i class="fa fa-arrow-down" aria-hidden="true"></i>
+                      <i className="fa fa-arrow-down" aria-hidden="true"></i>
                     </a>
                     <div
                       id="accordion-list-4"

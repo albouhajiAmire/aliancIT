@@ -13,9 +13,17 @@ import Description from "./Description";
 function Information() {
   return (
     <>
+
+
       <Head />
+
+
       <TitleHead />
+
+
       <Description />
+
+
       <section id="faq" className="faq">
         <div className="container">
           <div className="section-title" data-aos="fade-up">
@@ -31,7 +39,6 @@ function Information() {
               <img
                 src={Img1}
                 alt=""
-                srcset=""
                 style={{ width: "100%", height: "80%" }}
               />
             </div>
@@ -56,7 +63,6 @@ function Information() {
               <img
                 src={Img2}
                 alt=""
-                srcset=""
                 style={{ width: "100%", height: "80%" }}
               />
             </div>
@@ -81,7 +87,6 @@ function Information() {
               <img
                 src={Img3}
                 alt=""
-                srcset=""
                 style={{ width: "100%", height: "80%" }}
               />
             </div>
@@ -106,7 +111,6 @@ function Information() {
               <img
                 src={Img4}
                 alt=""
-                srcset=""
                 style={{ width: "100%", height: "80%" }}
               />
             </div>
@@ -131,7 +135,6 @@ function Information() {
               <img
                 src={Img5}
                 alt=""
-                srcset=""
                 style={{ width: "100%", height: "80%" }}
               />
             </div>
@@ -155,7 +158,6 @@ function Information() {
               <img
                 src={Img6}
                 alt=""
-                srcset=""
                 style={{ width: "100%", height: "80%" }}
               />
             </div>
@@ -179,7 +181,6 @@ function Information() {
               <img
                 src={Img7}
                 alt=""
-                srcset=""
                 style={{ width: "100%", height: "80%" }}
               />
             </div>

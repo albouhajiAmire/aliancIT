@@ -42,7 +42,7 @@ function Count() {
 
                   <div className="col-md-6 d-md-flex align-items-md-stretch">
                     <div className="count-box">
-                      <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                      <i className="fa fa-handshake-o" aria-hidden="true"></i>
                       <span
                         data-purecounter-start="0"
                         data-purecounter-end="65"
@@ -58,7 +58,7 @@ function Count() {
 
                   <div className="col-md-6 d-md-flex align-items-md-stretch">
                     <div className="count-box">
-                      <i class="fa fa-users" aria-hidden="true"></i>
+                      <i className="fa fa-users" aria-hidden="true"></i>
                       <span
                         data-purecounter-start="0"
                         data-purecounter-end="85"
@@ -73,7 +73,7 @@ function Count() {
 
                   <div className="col-md-6 d-md-flex align-items-md-stretch">
                     <div className="count-box">
-                      <i class="fa fa-user" aria-hidden="true"></i>
+                      <i className="fa fa-user" aria-hidden="true"></i>
                       <span
                         data-purecounter-start="0"
                         data-purecounter-end="18"
@@ -88,7 +88,7 @@ function Count() {
 
                   <div className="col-md-6 d-md-flex align-items-md-stretch">
                     <div className="count-box">
-                      <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                      <i className="fa fa-thumbs-up" aria-hidden="true"></i>
                       <span
                         data-purecounter-start="0"
                         data-purecounter-end="15"

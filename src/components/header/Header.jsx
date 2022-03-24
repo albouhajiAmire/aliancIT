@@ -1,12 +1,26 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import "../../assets/css/general.css";function Header() {
+import { Link} from "react-router-dom";
+
+
+
+const Header = () => {
+
+  const toggleMenu = (e) => {
+    const navbar = e.target.parentElement
+    navbar.classList.toggle('navbar-mobile')
+
+    e.target.classList.toggle('fa-bars')
+    e.target.classList.toggle('fa-xmark')
+
+  }
+
   return (
     <div>
       <header id="header" className="fixed-top ">
         <div className="container d-flex align-items-center">
+
           <h1 className="logo me-auto">
-            <a href="index.html">Aliance It</a>
+            <Link to="/">Aliance It</Link>
           </h1>
           {/* <a href="index.html" className="logo me-auto">
             <img src="" alt="" className="img-fluid" />
@@ -15,27 +29,27 @@ import "../../assets/css/general.css";function Header() {
           <nav id="navbar" className="navbar">
             <ul>
               <li>
-                <a className="nav-link scrollto active" href="#hero">
+                <Link className="nav-link scrollto active" to="/">
                 <i className="fas fa-acorn"></i> Accueil
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#about">
+                <a className="nav-link scrollto" href="/#about">
                   à propos
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#services">
+                <a className="nav-link scrollto" href="/#services">
                   Service
                 </a>
               </li>
               <li>
-                <NavLink to={"/information"} className="nav-link   scrollto" href="#portfolio">
+                <Link to="/information" className="nav-link scrollto" >
                   Information
-                </NavLink>
+                </Link>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#team">
+                <a className="nav-link scrollto" href="/#team">
                   équipe
                 </a>
               </li>
@@ -82,18 +96,18 @@ import "../../assets/css/general.css";function Header() {
                 </ul>
               </li>
               <li>
-                <a className="nav-link scrollto" href="#contact">
+                <a className="nav-link scrollto" href="/#contact">
                   Contact
                 </a>
               </li>
               <li>
-                <a className="getstarted scrollto" href="#about">
+                <a className="getstarted scrollto" href="/#about">
                   Se connecter
                 </a>
               </li>
             </ul>
             {/* <i className="bi bi-list mobile-nav-toggle"></i> */}
-            <i className="fa-solid fa-bars mobile-nav-toggle"></i>
+            <i className="fa-solid fa-bars mobile-nav-toggle" onClick={(e) => {toggleMenu(e)}}></i>
           </nav>
         </div>
       </header>

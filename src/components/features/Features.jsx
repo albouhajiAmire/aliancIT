@@ -24,55 +24,55 @@ export default function Features() {
           <div className="col-lg-3 col-md-4">
             <div className="icon-box">
               {/* <i className="ri-store-line"></i> */}
-              <img src={Img1} alt="" srcset="" style={{width:"20%"}}/>
+              <img src={Img1} alt=""  style={{width:"20%"}}/>
               <h3><a href="">Lorem Ipsum</a></h3>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div className="icon-box">
-            <img src={Img2} alt="" srcset="" style={{width:"20%"}}/>
+            <img src={Img2} alt=""  style={{width:"20%"}}/>
               <h3><a href="">Cisco </a></h3>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
             <div className="icon-box">
-            <img src={Img3} alt="" srcset="" style={{width:"20%"}}/>
+            <img src={Img3} alt=""  style={{width:"20%"}}/>
               <h3><a href="">PepLink </a></h3>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
             <div className="icon-box">
-            <img src={Img4} alt="" srcset="" style={{width:"20%"}}/>
+            <img src={Img4} alt=""  style={{width:"20%"}}/>
               <h3><a href="">Fortigate </a></h3>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 mt-4">
             <div className="icon-box">
-            <img src={Img5} alt="" srcset="" style={{width:"20%"}}/>
+            <img src={Img5} alt=""  style={{width:"20%"}}/>
               <h3><a href="">Linux </a></h3>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 mt-4">
             <div className="icon-box">
-            <img src={Img6} alt="" srcset="" style={{width:"20%"}}/>
+            <img src={Img6} alt=""  style={{width:"20%"}}/>
               <h3><a href="">Windows Server</a></h3>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 mt-4">
             <div className="icon-box">
-            <img src={Img7} alt="" srcset="" style={{width:"20%"}}/>
+            <img src={Img7} alt=""  style={{width:"20%"}}/>
               <h3><a href="">Oracle </a></h3>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 mt-4">
             <div className="icon-box">
-            <img src={Img8} alt="" srcset="" style={{width:"20%"}}/>
+            <img src={Img8} alt=""  style={{width:"20%"}}/>
               <h3><a href=""> Microsoft SQL SERVER</a></h3>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 mt-4">
             <div className="icon-box">
-            <img src={Img9} alt="" srcset="" style={{width:"20%"}}/>
+            <img src={Img9} alt=""  style={{width:"20%"}}/>
               <h3><a href="">MYSQL</a></h3>
             </div>
           </div>

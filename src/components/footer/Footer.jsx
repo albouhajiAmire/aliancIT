@@ -26,7 +26,7 @@ function Footer() {
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-md-6 footer-contact">
-                <h3>Arsha</h3>
+                <h3>Test</h3>
                 <p>
                   A108 Adam Street <br />
                   New York, NY 535022
@@ -44,20 +44,20 @@ function Footer() {
                 <h4>Useful Links</h4>
                 <ul>
                   <li>
-                  <i class="fa fa-chevron-right" aria-hidden="true"></i> <a href="#">Home</a>
+                  <i className="fa fa-chevron-right" aria-hidden="true"></i> <a href="#">Home</a>
                   </li>
                   <li>
-                  <i class="fa fa-chevron-right" aria-hidden="true"></i> <a href="#">About us</a>
+                  <i className="fa fa-chevron-right" aria-hidden="true"></i> <a href="#">About us</a>
                   </li>
                   <li>
-                  <i class="fa fa-chevron-right" aria-hidden="true"></i> <a href="#">Services</a>
+                  <i className="fa fa-chevron-right" aria-hidden="true"></i> <a href="#">Services</a>
                   </li>
                   <li>
-                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
                     <a href="#">Terms of service</a>
                   </li>
                   <li>
-                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
                     <a href="#">Privacy policy</a>
                   </li>
                 </ul>
@@ -67,23 +67,23 @@ function Footer() {
                 <h4>Our Services</h4>
                 <ul>
                   <li>
-                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
                     <a href="#">Web Design</a>
                   </li>
                   <li>
-                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
                     <a href="#">Web Development</a>
                   </li>
                   <li>
-                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
                     <a href="#">Product Management</a>
                   </li>
                   <li>
-                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
                     <a href="#">Marketing</a>
                   </li>
                   <li>
-                  <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
                     <a href="#">Graphic Design</a>
                   </li>
                 </ul>
@@ -97,19 +97,19 @@ function Footer() {
                 </p>
                 <div className="social-links mt-3">
                   <a href="#" className="twitter">
-                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                  <i className="fa-brands fa-twitter" aria-hidden="true"></i>
                   </a>
                   <a href="#" className="facebook">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i className="fa-brands fa-facebook" aria-hidden="true"></i>
                   </a>
                   <a href="#" className="instagram">
-                  <i class="fa fa-skype" aria-hidden="true"></i>
+                  <i className="fa-brands fa-skype" aria-hidden="true"></i>
                   </a>
                   <a href="#" className="whatsapp">
-                  <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                  <i className="fa-brands fa-whatsapp" aria-hidden="true"></i>
                   </a>
                   <a href="#" className="linkedin">
-                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
                   </a>
                 </div>
               </div>
@@ -126,10 +126,13 @@ function Footer() {
             . All Rights Reserved
           </div>
           <div className="credits">
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Designed by <a href="#">Test</a>
           </div>
         </div>
       </footer>
+
+      <a href="#" className="back-to-top d-flex align-items-center justify-content-center active"><i className="fa-solid fa-arrow-up"></i></a>
+  
     </>
   );
 }

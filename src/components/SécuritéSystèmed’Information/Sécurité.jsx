@@ -20,7 +20,7 @@ function Sécurité() {
               <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
                 <div className="icon">
                   {/* <i className="bx bxl-dribbble"></i> */}
-                  <img src={Img1} alt="" srcset="" style={{width:"60%"}}/>
+                  <img src={Img1} alt="" style={{width:"60%"}}/>
                 </div>
                 <h4 className="title">
                   <a href="">Antivirus : </a>
@@ -35,7 +35,7 @@ function Sécurité() {
             <div className="col-md-4 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="200">
                 <div className="icon">
-                <img src={Img2} alt="" srcset="" style={{width:"60%"}}/>
+                <img src={Img2} alt=""  style={{width:"60%"}}/>
                 </div>
                 <h4 className="title">
                   <a href="">Antivirus :</a>

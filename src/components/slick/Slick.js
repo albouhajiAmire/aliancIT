@@ -19,6 +19,9 @@ const images = [
   istockphoto,
   competitic,
 ];
+
+
+
 function Slick() {
   const NextArrow = ({ onClick }) => {
     return (
@@ -41,21 +44,42 @@ function Slick() {
   const settings = {
     infinite: true,
     lazyLoad: true,
+    dots: true ,
     speed: 300,
     slidesToShow: 3,
     centerMode: true,
     centerPadding: 0,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    responsive: [
+      {
+        breakpoint: 1024, // width to change options
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+    ] ,
     beforeChange: (current, next) => setImageIndex(next),
   };
+
+
+
+
   return (
     <>
-      <div className="slickapp">
+      <div className="slickapp" style={{width : "100%"}}>
         <Slider {...settings}>
           {images.map((img, idx) => (
-            <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-              <img src={img} alt={img} />
+            <div key={idx} className={idx === imageIndex ? "slide activeSlide" : "slide"}>
+              <img style={{backgroundSize:"cover"}} src={img} alt={img} />
             </div>
           ))}
         </Slider>

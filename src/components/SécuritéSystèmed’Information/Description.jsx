@@ -1,6 +1,8 @@
 import React from "react";
 import Img from '../../assets/img/features-1.png'
 import Slick from "../slick/Slick";
+
+
 function Description() {
   return (
     <>
@@ -38,20 +40,20 @@ function Description() {
               </h3>
               <ul>
                 <li>
-                <i class="fa fa-check" aria-hidden="true"></i> Extensible avec l’ajout de
+                <i className="fa fa-check" aria-hidden="true"></i> Extensible avec l’ajout de
                   module ou le changement de disque dur
                 </li>
                 <li>
-                <i class="fa fa-check" aria-hidden="true"></i> Performent au vu de la
+                <i className="fa fa-check" aria-hidden="true"></i> Performent au vu de la
                   possible domiciliation aussi bien de répertoire de travail que
                   de base de données centralisé
                 </li>
                 <li>
-                <i class="fa fa-check" aria-hidden="true"></i> Sécurisée : haute
+                <i className="fa fa-check" aria-hidden="true"></i> Sécurisée : haute
                   disponibilité de données via le RAID de 0 à 10
                 </li>
                 <li>
-                <i class="fa fa-check" aria-hidden="true"></i> Simplicité a administré
+                <i className="fa fa-check" aria-hidden="true"></i> Simplicité a administré
                 </li>
               </ul>
             </div>

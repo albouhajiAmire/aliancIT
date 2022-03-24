@@ -44,16 +44,16 @@ function Team() {
                   </p>
                   <div className="social">
                     <a href="">
-                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                    <i className="fa-brands fa-facebook" aria-hidden="true"></i>
                     </a>
                     <a href="">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i className="fa-brands fa-twitter" aria-hidden="true"></i>
                     </a>
                     <a href="">
-                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
                     </a>
                     <a href="">
-                    <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                    <i className="fa-brands fa-whatsapp" aria-hidden="true"></i>
                     </a>
                   </div>
                 </div>
@@ -86,17 +86,16 @@ function Team() {
                   </p>
                   <div className="social">
                     <a href="">
-                      <i className="ri-twitter-fill"></i>
+                    <i className="fa-brands fa-facebook" aria-hidden="true"></i>
                     </a>
                     <a href="">
-                      <i className="ri-facebook-fill"></i>
+                    <i className="fa-brands fa-twitter" aria-hidden="true"></i>
                     </a>
                     <a href="">
-                      <i className="ri-instagram-fill"></i>
+                    <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
                     </a>
                     <a href="">
-                      {" "}
-                      <i className="ri-linkedin-box-fill"></i>{" "}
+                    <i className="fa-brands fa-whatsapp" aria-hidden="true"></i>
                     </a>
                   </div>
                 </div>
