@@ -1,5 +1,8 @@
 import React from "react";
-import { Link} from "react-router-dom";
+import { Link, NavLink} from "react-router-dom";
+import logoa from '../../assets/img/morroco.png'
+import logof from '../../assets/img/france.png'
+import logoe from '../../assets/img/english.png'
 
 
 
@@ -8,7 +11,6 @@ const Header = () => {
   const toggleMenu = (e) => {
     const navbar = e.target.parentElement
     navbar.classList.toggle('navbar-mobile')
-
     e.target.classList.toggle('fa-bars')
     e.target.classList.toggle('fa-xmark')
 
@@ -39,11 +41,6 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a className="nav-link scrollto" href="/#services">
-                  Service
-                </a>
-              </li>
-              <li>
                 <Link to="/information" className="nav-link scrollto" >
                   Information
                 </Link>
@@ -54,44 +51,32 @@ const Header = () => {
                 </a>
               </li>
               <li className="dropdown">
-                <a href="#">
-                  <span>Langue</span> <i className="bi bi-chevron-down"></i>
+              <a ><span>Langue</span> <i className="bi bi-chevron-down"></i> </a>
+                <ul>
+                  <li>
+                   <img className="logotranslate" src={logof} alt="frensh" />Francais
+                  </li>
+                  <li>
+                  <img className="logotranslate" src={logoe} alt="frensh" /> Anglais
+                  </li>
+                  <li>
+                  <img className="logotranslate" src={logoa} alt="frensh" /> Arabic
+                  </li>
+                </ul>
+              </li>
+              <li className="dropdown">
+                <a href="">
+                  <span>Account</span> <i className="bi bi-chevron-down"></i>
                 </a>
                 <ul>
                   <li>
-                    <a href="#">Francais</a>
-                  </li>
-                  {/* <li className="dropdown">
-                    <a href="#">
-                      <span>Deep Drop Down</span>{" "}
-                      <i className="bi bi-chevron-right"></i>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="#">Deep Drop Down 1</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 2</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 3</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 4</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Drop Down 5</a>
-                      </li>
-                    </ul>
-                  </li> */}
-                  <li>
-                    <a href="#">Anglais</a>
+                    <a href="#" ><i class="fa-solid fa-user-tie"></i>profil</a>
                   </li>
                   <li>
-                    <a href="#">German</a>
+                    <a href="#"><i class="fa-solid fa-star"></i>favourite</a>
                   </li>
                   <li>
-                    <a href="#">Espane</a>
+                    <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i>se deconnecter</a>
                   </li>
                 </ul>
               </li>
@@ -101,9 +86,10 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a className="getstarted scrollto" href="/#about">
+
+                <NavLink to={"/login"} className="getstarted scrollto" >
                   Se connecter
-                </a>
+                </NavLink>
               </li>
             </ul>
             {/* <i className="bi bi-list mobile-nav-toggle"></i> */}

@@ -1,0 +1,18 @@
+#hero-slider .slick-dots {
+    bottom: 15px;
+}
+#hero-slider .next{
+    right: 2%;
+    background-color: transparent;
+}
+#hero-slider .prev{
+   left: 2%;
+    background-color: transparent;
+}
+#hero-slider .arrow svg{
+    color: white;
+    font-size: 30px;
+}
+.img-bg .img-bg-inner h2, .img-bg .img-bg-inner p{
+    text-align: center;
+}
