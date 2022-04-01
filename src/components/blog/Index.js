@@ -1,5 +1,6 @@
 import React from "react";
 import Pagination from "../../controle/pagination/Pagination";
+import Footer from "../footer/Footer";
 import Article from "./articles/Article";
 import './main.css'
 function Index() {
@@ -9,6 +10,7 @@ function Index() {
         <div className="container">
            <Article/>
            <Pagination/>
+           <Footer/>
         </div>
       </section>
     </>

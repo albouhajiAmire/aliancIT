@@ -4,7 +4,7 @@
 }
 .paragraphSingle{
     margin-left: 100px;
-    padding: 8px 65px 0px 0px;
+    padding: 1px 1px 0px 0px;
     font-family: var(--font-primary)
 };
 .art h3 {
@@ -16,7 +16,9 @@
 .half .artImg{
     height: 300px;
 }
-  
+.btn-outline-success{
+  background: none;
+  color: gainsboro  }
 /*--------------------------------------------------------------
 # Posts
 --------------------------------------------------------------*/
@@ -337,15 +339,13 @@
     font-family: var(--font-secondary);
     margin: 5px;
     transition: 0.3s all ease;
-    color:  var(--color-black);
+    /* color:  var(--color-black); */
   }
   .custom-pagination a.active {
-    background: var(--color-black);
+    /* background: var(--color-black); */
     color: var(--color-white);
   }
-  .custom-pagination a.active:hover {
-    background: rgba(var(--color-black-rgb), 0.9);
-  }
+ 
   .custom-pagination a:hover {
     background: rgba(var(--color-black-rgb), 0.1);
   }

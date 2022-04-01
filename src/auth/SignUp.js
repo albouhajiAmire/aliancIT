@@ -1,142 +1,99 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import background1 from "../assets/img/backlogin.jpg";
 import "./style.css";
 function SignUp() {
   return (
     <>
-      <section className="login">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-5 mx-auto">
-              <div id="first">
-                <div className="myform form ">
-                  <div className="logo mb-3">
-                    <div className="col-md-12 text-center">
-                      <h1>S'inscrire</h1>
-                    </div>
-                  </div>
-                  <form action="" name="login">
-                    <div className="row form-group">
-                      <div className="col-6">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input
-                          type="text"
-                          name="first_name"
-                          className="form-control"
-                          id="first_name"
-                          aria-describedby="emailHelp"
-                          placeholder="Enter email"
-                        />
-                      </div>
-                      <div className="col-6">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input
-                          type="text"
-                          name="first_name"
-                          className="form-control"
-                          id="first_name"
-                          aria-describedby="emailHelp"
-                          placeholder="Enter email"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="form-group">
-                      <p className="text-right" style={{ color: "red" }}>
-                        By error name
-                      </p>
-                    </div>
-
-                    <div className="form-group">
-                      <label for="exampleInputEmail1">Email address</label>
-                      <input
-                        type="email"
-                        name="email"
-                        className="form-control"
-                        id="email"
-                        aria-describedby="emailHelp"
-                        placeholder="Enter email"
-                      />
-                    </div>
-                    <div className="form-group">
-                      <p className="text-right" style={{ color: "red" }}>
-                        By error Télephone
-                      </p>
-                    </div>
-                    <div className="form-group">
-                      <label for="exampleInputEmail1">Télephone</label>
-                      <input
-                        type="number"
-                        name="phone"
-                        className="form-control"
-                        id="phone"
-                        placeholder=""
-                      />
-                    </div>
-                    <div className="form-group">
-                      <p className="text-right" style={{ color: "red" }}>
-                        By error Télephone
-                      </p>
-                    </div>
-                    <select
-                      className="form-select"
-                      aria-label="Default select example"
-                    >
-                      <option selected>Open this select menu</option>
-                      <option value="1">One</option>
-                      <option value="2">Two</option>
-                      <option value="3">Three</option>
-                    </select>
-                    <div className="form-group">
-                      <p className="text-right" style={{ color: "red" }}>
-                        By error option
-                      </p>
-                    </div>
-                    <div className="form-group mt-3">
-                      <label for="exampleInputEmail1">Password</label>
-                      <input
-                        type="password"
-                        name="password"
-                        id="password"
-                        className="form-control"
-                        aria-describedby="emailHelp"
-                        placeholder="Enter Password"
-                      />
-                    </div>
-                    <div className="form-group">
-                      <p className="text-right" style={{ color: "red" }}>
-                        By error password
-                      </p>
-                    </div>
-                    <div className="col-md-12 text-center ">
-                      <button
-                        type="submit"
-                        className=" btn btn-block mybtn btn-primary tx-tfm"
-                      >
-                        Login
-                      </button>
-                    </div>
-                    <div className="col-md-12 ">
-                      <div className="login-or">
-                        <hr className="hr-or" />
-                        <span className="span-or">or</span>
-                      </div>
-                    </div>
-                    <div className="form-group">
-                      <p className="text-center">
-                        Don't have account?{" "}
-                        <NavLink to={"/login"} href="#" id="signup">
-                          Sign in here
-                        </NavLink>
-                      </p>
-                    </div>
-                  </form>
-                </div>
+      <div>
+      <div className="limiter">
+        <div
+          className="container-login100"
+          style={{ backgroundImage: `url(${background1})` }}
+          //   style="background-image: url('images/img-01.jpg');"
+        >
+          <div className="wrap-login100 p-t-190 p-b-30">
+            <form className="login100-form validate-form">
+              <div className="login100-form-avatar">
+                <img src="" alt="AVATAR" />
               </div>
-            </div>
+              <div className="row">
+              <div
+                className="col-6 wrap-input100 validate-input m-b-10 mb-3"
+                data-validate="Username is required"
+              >
+                <input
+                  className="input100"
+                  type="text"
+                  name="username"
+                  placeholder="Username"
+                />
+                <span className="focus-input100"></span>
+                <span className="symbol-input100">
+                  <i className="fa fa-user"></i>
+                </span>
+              </div>
+              <div
+                className="col-6 wrap-input100 validate-input m-b-10 mb-3"
+                data-validate="Username is required"
+              >
+                <input
+                  className="input100"
+                  type="text"
+                  name="username"
+                  placeholder="Username"
+                />
+                <span className="focus-input100"></span>
+                <span className="symbol-input100">
+                  <i className="fa fa-user"></i>
+                </span>
+              </div>
+              </div>
+              <div
+                className="wrap-input100 validate-input m-b-10"
+                data-validate="Password is required"
+              >
+                <input
+                  className="input100"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                />
+                <span className="focus-input100"></span>
+                <span className="symbol-input100">
+                  <i className="fa fa-envelope"></i>
+                </span>
+              </div>
+              <div
+                className="wrap-input100 validate-input m-b-10 mb-3 mt-3"
+                data-validate="Password is required"
+              >
+                <input
+                  className="input100"
+                  type="password"
+                  name="pass"
+                  placeholder="Password"
+                />
+                <span className="focus-input100"></span>
+                <span className="symbol-input100">
+                  <i className="fa fa-lock"></i>
+                </span>
+              </div>
+              <div className="container-login100-form-btn mb-3 mt-3">
+                <button className="login100-form-btn">
+                Register
+                </button>
+              </div>
+              <div className="text-center w-full p-t-25 p-b-230">
+                <NavLink to={"/login"} className="txt1">
+                  Sign in
+                </NavLink>
+              </div>
+            </form>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
     </>
   );
 }

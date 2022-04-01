@@ -1,10 +1,13 @@
 import React from "react";
 import Img from "../../../assets/img/post-slide-6.jpg";
 import Img1 from "../../../assets/img/person-2.jpg";
+import Footer from "../../footer/Footer";
+import Header from "../../header/Header";
 
 function SingleArticle() {
   return (
     <>
+    <Header/>
       <section className="single-post-content" style={{ marginTop: "5%" }}>
         <div className="container">
           <div className="row">
@@ -19,18 +22,6 @@ function SingleArticle() {
                   13 Amazing Poems from Shel Silverstein with Valuable Life
                   Lessons
                 </h1>
-                {/* <p>
-                  <span className="firstcharacter">L</span>orem ipsum dolor sit,
-                  amet consectetur adipisicing elit. Ratione officia sed,
-                  suscipit distinctio, numquam omnis quo fuga ipsam quis
-                  inventore voluptatum recusandae culpa, unde doloribus saepe
-                  labore alias voluptate expedita? Dicta delectus beatae
-                  explicabo odio voluptatibus quas, saepe qui aperiam autem
-                  obcaecati, illo et! Incidunt voluptas culpa neque repellat
-                  sint, accusamus beatae, cumque autem tempore quisquam quam
-                  eligendi harum debitis.
-                </p> */}
-
                 <figure className="my-4">
                   <img src={Img} alt="" className="img-fluid img-article" />
                   <figcaption>
@@ -701,6 +692,7 @@ function SingleArticle() {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 }

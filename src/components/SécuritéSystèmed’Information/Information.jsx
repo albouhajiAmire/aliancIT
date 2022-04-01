@@ -9,21 +9,16 @@ import Img7 from "../../assets/img/clients/2011-04-14-to-ip-by-competitic-25-320
 import Head from "./Head";
 import TitleHead from "./TitleHead";
 import Description from "./Description";
+import Footer from "../footer/Footer";
+import Header from "../header/Header";
 
 function Information() {
   return (
     <>
-
-
+    <Header/>
       <Head />
-
-
       <TitleHead />
-
-
       <Description />
-
-
       <section id="faq" className="faq">
         <div className="container">
           <div className="section-title" data-aos="fade-up">
@@ -36,14 +31,10 @@ function Information() {
             data-aos-delay="100"
           >
             <div className="col-lg-6">
-              <img
-                src={Img1}
-                alt=""
-                style={{ width: "100%", height: "80%" }}
-              />
+              <img src={Img1} alt="" style={{ width: "100%", height: "80%" }} />
             </div>
             <div className="col-lg-6">
-            <h4>Outsourcing de la gestion des système d’information</h4>
+              <h4>Outsourcing de la gestion des système d’information</h4>
               <p>
                 Pré-câbler un immeuble, consiste à poser, en tous points de
                 celui-ci, un réseau de conducteurs et de connecteurs suffisants,
@@ -60,14 +51,10 @@ function Information() {
             data-aos-delay="200"
           >
             <div className="col-lg-6">
-              <img
-                src={Img2}
-                alt=""
-                style={{ width: "100%", height: "80%" }}
-              />
+              <img src={Img2} alt="" style={{ width: "100%", height: "80%" }} />
             </div>
             <div className="col-lg-6">
-            <h4>Outsourcing de la gestion des système d’information</h4>
+              <h4>Outsourcing de la gestion des système d’information</h4>
               <p>
                 Pré-câbler un immeuble, consiste à poser, en tous points de
                 celui-ci, un réseau de conducteurs et de connecteurs suffisants,
@@ -84,14 +71,10 @@ function Information() {
             data-aos-delay="300"
           >
             <div className="col-lg-6">
-              <img
-                src={Img3}
-                alt=""
-                style={{ width: "100%", height: "80%" }}
-              />
+              <img src={Img3} alt="" style={{ width: "100%", height: "80%" }} />
             </div>
             <div className="col-lg-6">
-            <h4>Outsourcing de la gestion des système d’information</h4>
+              <h4>Outsourcing de la gestion des système d’information</h4>
               <p>
                 Pré-câbler un immeuble, consiste à poser, en tous points de
                 celui-ci, un réseau de conducteurs et de connecteurs suffisants,
@@ -108,14 +91,10 @@ function Information() {
             data-aos-delay="400"
           >
             <div className="col-lg-6">
-              <img
-                src={Img4}
-                alt=""
-                style={{ width: "100%", height: "80%" }}
-              />
+              <img src={Img4} alt="" style={{ width: "100%", height: "80%" }} />
             </div>
             <div className="col-lg-6">
-            <h4>Outsourcing de la gestion des système d’information</h4>
+              <h4>Outsourcing de la gestion des système d’information</h4>
               <p>
                 Pré-câbler un immeuble, consiste à poser, en tous points de
                 celui-ci, un réseau de conducteurs et de connecteurs suffisants,
@@ -132,14 +111,10 @@ function Information() {
             data-aos-delay="500"
           >
             <div className="col-lg-6">
-              <img
-                src={Img5}
-                alt=""
-                style={{ width: "100%", height: "80%" }}
-              />
+              <img src={Img5} alt="" style={{ width: "100%", height: "80%" }} />
             </div>
             <div className="col-lg-6">
-            <h4>Outsourcing de la gestion des système d’information</h4>
+              <h4>Outsourcing de la gestion des système d’information</h4>
               <p>
                 Pré-câbler un immeuble, consiste à poser, en tous points de
                 celui-ci, un réseau de conducteurs et de connecteurs suffisants,
@@ -155,14 +130,10 @@ function Information() {
             data-aos-delay="500"
           >
             <div className="col-lg-6">
-              <img
-                src={Img6}
-                alt=""
-                style={{ width: "100%", height: "80%" }}
-              />
+              <img src={Img6} alt="" style={{ width: "100%", height: "80%" }} />
             </div>
             <div className="col-lg-6">
-            <h4>Outsourcing de la gestion des système d’information</h4>
+              <h4>Outsourcing de la gestion des système d’information</h4>
               <p>
                 Pré-câbler un immeuble, consiste à poser, en tous points de
                 celui-ci, un réseau de conducteurs et de connecteurs suffisants,
@@ -178,11 +149,7 @@ function Information() {
             data-aos-delay="500"
           >
             <div className="col-lg-6">
-              <img
-                src={Img7}
-                alt=""
-                style={{ width: "100%", height: "80%" }}
-              />
+              <img src={Img7} alt="" style={{ width: "100%", height: "80%" }} />
             </div>
             <div className="col-lg-6">
               <h4>Outsourcing de la gestion des système d’information</h4>
@@ -197,6 +164,7 @@ function Information() {
           </div>
         </div>
       </section>
+      <Footer/>
     </>
   );
 }

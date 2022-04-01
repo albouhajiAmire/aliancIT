@@ -1,11 +1,9 @@
 import React from "react";
-import Img from "../../assets/img/hero-img.png";
-
 function ServiceOffer() {
 
   return (
     <>
-      <section id="hero" className="d-flex align-items-center">
+      <section id="hero" className="d-flex align-items-center" >
         <div className="container"> 
           <div className="row">
             <div
@@ -36,7 +34,7 @@ function ServiceOffer() {
               data-aos="zoom-in"
               data-aos-delay="200"
             >
-              <img src={Img} className="img-fluid animated" alt="" />
+              {/* <img src={Img} className="img-fluid animated" alt="" /> */}
             </div>
           </div>
         </div>

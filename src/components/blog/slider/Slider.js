@@ -71,8 +71,8 @@ function Sliders() {
 
   return (
     <>
-      <section id="hero-slider" className="hero-slider " style={{padding: '116px 0'}}>
-        <div className="container-md" data-aos="fade-in">
+      <section id="hero-slider" className="hero-slider" >
+        <div className="container-md " data-aos="fade-in">
           <div className="row">
             <div className="col-12">
               <div className="swiper sliderFeaturedPosts">

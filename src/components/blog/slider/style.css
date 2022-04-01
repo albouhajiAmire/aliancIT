@@ -13,6 +13,12 @@
     color: white;
     font-size: 30px;
 }
+.img-bg .img-bg-inner {
+    margin-bottom: 148px !important;
+}
 .img-bg .img-bg-inner h2, .img-bg .img-bg-inner p{
     text-align: center;
+}
+#hero-slider .swiper {
+    height: 70vh !important;
 }

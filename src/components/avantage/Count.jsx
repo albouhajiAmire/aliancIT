@@ -24,7 +24,7 @@ function Count() {
                 <div className="row">
                   <div className="col-md-6 d-md-flex align-items-md-stretch">
                     <div className="count-box">
-                      <i className="fa fa-id-card-o" aria-hidden="true"></i>
+                      <i class="fa-solid fa-chess-pawn"></i>
                       <span
                         data-purecounter-start="0"
                         data-purecounter-end="65"
@@ -35,23 +35,23 @@ function Count() {
                       </span>
                       <p>
                         <strong>d'expérience en référencement</strong>
-                        
                       </p>
                     </div>
                   </div>
 
                   <div className="col-md-6 d-md-flex align-items-md-stretch">
                     <div className="count-box">
-                      <i className="fa fa-handshake-o" aria-hidden="true"></i>
+                      <i class="fa-solid fa-handshake"></i>
                       <span
                         data-purecounter-start="0"
                         data-purecounter-end="65"
                         data-purecounter-duration="1"
                         className="purecounter"
-                      >+500</span>
+                      >
+                        +500
+                      </span>
                       <p>
                         <strong> Clients nous ont fait confiance</strong>
-                       
                       </p>
                     </div>
                   </div>
@@ -64,9 +64,11 @@ function Count() {
                         data-purecounter-end="85"
                         data-purecounter-duration="1"
                         className="purecounter"
-                      >12</span>
+                      >
+                        12
+                      </span>
                       <p>
-                        <strong>Collaborateurs passionés du web </strong> 
+                        <strong>Collaborateurs passionés du web </strong>
                       </p>
                     </div>
                   </div>
@@ -79,9 +81,11 @@ function Count() {
                         data-purecounter-end="18"
                         data-purecounter-duration="1"
                         className="purecounter"
-                      >1</span>
+                      >
+                        1
+                      </span>
                       <p>
-                        <strong>Laboratoire de R & D</strong> 
+                        <strong>Laboratoire de R & D</strong>
                       </p>
                     </div>
                   </div>
@@ -94,9 +98,11 @@ function Count() {
                         data-purecounter-end="15"
                         data-purecounter-duration="1"
                         className="purecounter"
-                      >60%</span>
+                      >
+                        60%
+                      </span>
                       <p>
-                        <strong>de nos clients sont satisfaits</strong> 
+                        <strong>de nos clients sont satisfaits</strong>
                       </p>
                     </div>
                   </div>

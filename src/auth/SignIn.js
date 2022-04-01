@@ -1,82 +1,72 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import './style.css'
+import background1 from "../assets/img/backlogin.jpg";
+import "./style.css";
 function SignIn() {
   return (
     <>
-    <section className="login">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-5 mx-auto">
-            <div id="first">
-              <div className="myform form ">
-                <div className="logo mb-3">
-                  <div className="col-md-12 text-center">
-                    <h1>Se connecter</h1>
-                  </div>
-                </div>
-                <form action="" name="login">
-                  <div className="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input
-                      type="email"
-                      name="email"
-                      className="form-control"
-                      id="email"
-                      aria-describedby="emailHelp"
-                      placeholder="Enter email"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <p className="text-right" style={{color:'red'}}>
-                      By error email
-                    </p>
-                  </div>
-                  <div className="form-group mt-3" >
-                    <label for="exampleInputEmail1">Password</label>
-                    <input
-                      type="password"
-                      name="password"
-                      id="password"
-                      className="form-control"
-                      aria-describedby="emailHelp"
-                      placeholder="Enter Password"
-                    />
-                  </div>
-                  <div className="form-group">
-                    <p className="text-right" style={{color:'red'}}>
-                      By error password
-                    </p>
-                  </div>
-                  <div className="col-md-12 text-center ">
-                    <button
-                      type="submit"
-                      className=" btn btn-block mybtn btn-primary tx-tfm"
-                    >
-                      Login
-                    </button>
-                  </div>
-                  <div className="col-md-12 ">
-                    <div className="login-or">
-                      <hr className="hr-or" />
-                      <span className="span-or">or</span>
-                    </div>
-                  </div>
-                  <div className="form-group">
-                    <p className="text-center">
-                      Don't have account?{" "}
-                      <NavLink to={"/loginup"} href="#" id="signup">
-                        Sign up here
-                      </NavLink>
-                    </p>
-                  </div>
-                </form>
+      <div className="limiter">
+        <div
+          className="container-login100"
+          style={{ backgroundImage: `url(${background1})` }}
+        >
+          <div className="wrap-login100 p-t-190 p-b-30 loginuser">
+            <form className="login100-form validate-form">
+              <div className="login100-form-avatar mb-3">
+                <img src="" alt="AVATAR" />
               </div>
-            </div>
+              <div
+                className="wrap-input100 validate-input m-b-10 mb-4"
+                data-validate="Email is required"
+              >
+                <input
+                  className="input100"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                />
+                <span className="focus-input100"></span>
+                <span className="symbol-input100">
+                  <i className="fa fa-user"></i>
+                </span>
+              </div>
+
+              <div
+                className="wrap-input100 validate-input m-b-10"
+                data-validate="Password is required"
+              >
+                <input
+                  className="input100"
+                  type="password"
+                  name="pass"
+                  placeholder="Password"
+                />
+                <span className="focus-input100"></span>
+                <span className="symbol-input100">
+                  <i className="fa fa-lock"></i>
+                </span>
+              </div>
+
+              <div className="container-login100-form-btn p-t-10 mt-3 mb-3">
+                <button className="login100-form-btn">Login</button>
+              </div>
+
+              <div className="text-center w-full p-t-25 p-b-230">
+                <NavLink to={"/forgotpassword"} className="txt1">
+                  Forgot Username / Password?
+                </NavLink>
+              </div>
+
+              <div className="text-center w-full">
+                <NavLink to={"/loginup"} className="txt1" href="#">
+                  Create new account
+                  <i className="fa fa-long-arrow-right"></i>
+                </NavLink>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-      </section>
     </>
   );
 }

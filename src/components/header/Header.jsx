@@ -22,36 +22,37 @@ const Header = () => {
         <div className="container d-flex align-items-center">
 
           <h1 className="logo me-auto">
-            <Link to="/">Aliance It</Link>
+            <NavLink to="/">AllianceIt</NavLink>
           </h1>
-          {/* <a href="index.html" className="logo me-auto">
+          {/* <NavLink to={""} href="index.html" className="logo me-auto">
             <img src="" alt="" className="img-fluid" />
-          </a> */}
+          </NavLink> */}
 
           <nav id="navbar" className="navbar">
             <ul>
               <li>
-                <Link className="nav-link scrollto active" to="/">
+                <NavLink className="nav-link scrollto active" to="/">
                 <i className="fas fa-acorn"></i> Accueil
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <a className="nav-link scrollto" href="/#about">
+                <NavLink to={""} className="nav-link scrollto" href="/#about">
                   à propos
-                </a>
+                </NavLink>
               </li>
               <li>
-                <Link to="/information" className="nav-link scrollto" >
+                <NavLink to="/information" className="nav-link scrollto" >
                   Information
-                </Link>
+                </NavLink>
               </li>
+       
               <li>
-                <a className="nav-link scrollto" href="/#team">
+                <NavLink to={""} className="nav-link scrollto" href="/#team">
                   équipe
-                </a>
+                </NavLink>
               </li>
               <li className="dropdown">
-              <a ><span>Langue</span> <i className="bi bi-chevron-down"></i> </a>
+              <NavLink to={""} ><span>Langue</span> <i className="bi bi-chevron-down"></i> </NavLink>
                 <ul>
                   <li>
                    <img className="logotranslate" src={logof} alt="frensh" />Francais
@@ -65,25 +66,48 @@ const Header = () => {
                 </ul>
               </li>
               <li className="dropdown">
-                <a href="">
-                  <span>Account</span> <i className="bi bi-chevron-down"></i>
-                </a>
+                <NavLink to={""} href="">
+                  <span>Articles</span> <i className="bi bi-chevron-down"></i>
+                </NavLink>
                 <ul>
                   <li>
-                    <a href="#" ><i class="fa-solid fa-user-tie"></i>profil</a>
+                    <NavLink to={"article"} href="#" >article</NavLink>
                   </li>
                   <li>
-                    <a href="#"><i class="fa-solid fa-star"></i>favourite</a>
+                    <NavLink to={"signle"} href="#">articles</NavLink>
+                  </li>
+                </ul>
+              </li>
+              <li className="dropdown">
+                <NavLink to={""} href="">
+                  <span>Archives</span> <i className="bi bi-chevron-down"></i>
+                </NavLink>
+                <ul>
+                  <li>
+                    <NavLink to={"archive"} ><i class="fa-solid fa-user-tie"></i>Archive</NavLink>
+                  </li>
+                  </ul>
+              </li>
+              <li className="dropdown">
+                <NavLink to={""} href="">
+                  <span>Account</span> <i className="bi bi-chevron-down"></i>
+                </NavLink>
+                <ul>
+                  <li>
+                    <NavLink to={"profil"} href="#" ><i class="fa-solid fa-user-tie"></i>profil</NavLink>
                   </li>
                   <li>
-                    <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i>se deconnecter</a>
+                    <NavLink to={""} href="#"><i class="fa-solid fa-star"></i>favourite</NavLink>
+                  </li>
+                  <li>
+                    <NavLink to={""} href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i>se deconnecter</NavLink>
                   </li>
                 </ul>
               </li>
               <li>
-                <a className="nav-link scrollto" href="/#contact">
+                <NavLink to={""} className="nav-link scrollto" href="/#contact">
                   Contact
-                </a>
+                </NavLink>
               </li>
               <li>
 
