@@ -1,24 +1,16 @@
 import React from "react";
-import Img1 from "../../assets/img/clients/Audit-de-sécurité.png";
-import Img2 from "../../assets/img/clients/ajj7mghrfkrg_17hfv8vpcd_b.png";
-import Img3 from "../../assets/img/clients/FEL-Planification-vnements_1920x1080-en.jpg";
+import Img1 from "../../assets/img/clients/p1.jpg";
+import Img2 from "../../assets/img/clients/p2.jpg";
+import Img3 from "../../assets/img/clients/p3.jpg";
 import Img4 from "../../assets/img/clients/Traditional-vs-Virtual.png";
 import Img5 from "../../assets/img/clients/brassage-salle-informatique.jpeg";
 import Img6 from "../../assets/img/clients/istockphoto-1305083849-612x612.jpg";
-import Img7 from "../../assets/img/clients/2011-04-14-to-ip-by-competitic-25-320.jpg";
-import Head from "./Head";
-import TitleHead from "./TitleHead";
-import Description from "./Description";
-import Footer from "../footer/Footer";
-import Header from "../header/Header";
+import Img7 from "../../assets/img/clients/p4.jpg";
+
 
 function Information() {
   return (
     <>
-    <Header/>
-      <Head />
-      <TitleHead />
-      <Description />
       <section id="faq" className="faq">
         <div className="container">
           <div className="section-title" data-aos="fade-up">
@@ -164,7 +156,6 @@ function Information() {
           </div>
         </div>
       </section>
-      <Footer/>
     </>
   );
 }

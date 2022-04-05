@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import background1 from "../assets/img/backlogin.jpg";
-import "./style.css";
+import "../assets/css/login.css";
 function SignUp() {
   return (
     <>
@@ -12,10 +12,10 @@ function SignUp() {
           style={{ backgroundImage: `url(${background1})` }}
           //   style="background-image: url('images/img-01.jpg');"
         >
-          <div className="wrap-login100 p-t-190 p-b-30">
+          <div className="wrap-login100 p-t-190 p-b-30 " style={{ width: "500px"}}>
             <form className="login100-form validate-form">
               <div className="login100-form-avatar">
-                <img src="" alt="AVATAR" />
+                <img src={""} alt="AVATAR" />
               </div>
               <div className="row">
               <div

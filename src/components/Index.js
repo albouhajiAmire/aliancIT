@@ -3,7 +3,6 @@ import Suppliers from "./fournisseurs/Suppliers";
 import OurJobs from "./métiers/OurJobs";
 import ServiceOffer from "./OffreServices/ServiceOffer";
 import Team from "./équipe/Team";
-import SolutionIt from "./solutionsIT/SolutionIt";
 import Contact from "./contact/Contact";
 import Features from "./features/Features";
 import Count from "./avantage/Count";

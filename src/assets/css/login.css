@@ -1,5 +1,5 @@
 /*---------------------------------------------*/
-a {
+a , span{
 	font-family: Montserrat-Regular;
 	font-size: 14px;
 	line-height: 1.7;
@@ -157,12 +157,11 @@ iframe {
 }
 
 .wrap-login100 {
-  width: 528px;
+  width: 400px;
   background: white;
   border-radius: 20px;
   padding: 28px;
 }
-
 
 
 /*------------------------------------------------------------------

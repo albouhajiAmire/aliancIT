@@ -30,7 +30,8 @@ function Welcome() {
                 cellPadding={0}
                 cellSpacing={0}
                 width="100%"
-                style={{ maxWidth: "600px" }}
+                style={{ maxWidth: "600px"}}
+                
               >
                 <tbody>
                   <tr>
@@ -118,6 +119,7 @@ function Welcome() {
                         fontSize: "18px",
                         fontWeight: 400,
                         lineHeight: "25px",
+                      
                       }}
                     >
                       <p style={{ margin: 0 }}>
@@ -146,8 +148,9 @@ function Welcome() {
                                   <tr>
                                     <td
                                       align="center"
-                                      style={{ borderRadius: "3px" }}
-                                      bgcolor="#FFA73B"
+                                      style={{ borderRadius: "3px" ,background:"#0cdd7ef0" }}
+                                  
+                                     
                                     >
                                       <a
                                         href="#"

@@ -47,16 +47,6 @@ function Profil() {
                       <button
                         className="nav-link"
                         data-bs-toggle="tab"
-                        data-bs-target="#profile-settings"
-                      >
-                        Settings
-                      </button>
-                    </li>
-
-                    <li className="nav-item">
-                      <button
-                        className="nav-link"
-                        data-bs-toggle="tab"
                         data-bs-target="#profile-change-password"
                       >
                         Change Password
@@ -138,18 +128,18 @@ function Profil() {
                             Profile Image
                           </label>
                           <div className="col-md-8 col-lg-9">
-                            <img src={""} alt="Profile" />
+                            <img className="avatar-edit" src={"https://upload.wikimedia.org/wikipedia/commons/f/f4/User_Avatar_2.png"} alt="Profile" />
                             <div className="pt-2">
                               <a
-                                href="#"
-                                className="btn btn-primary btn-sm"
+                              
+                                className="btn btn-upload  btn-sm"
                                 title="Upload new profile image"
                               >
                                 <i className="fa-solid fa-cloud-arrow-up"></i>
-                              </a>
+                              </a> &nbsp;&nbsp;&nbsp;
                               <a
                                 href="#"
-                                className="btn btn-danger btn-sm"
+                                className="btn btn-remove  btn-sm "
                                 title="Remove my profile image"
                               >
                                 <i className="fa-solid fa-trash-can"></i>
@@ -404,83 +394,7 @@ function Profil() {
                       </form>
                     </div>
 
-                    <div className="tab-pane fade pt-3" id="profile-settings">
-                      <form>
-                        <div className="row mb-3">
-                          <label
-                            for="fullName"
-                            className="col-md-4 col-lg-3 col-form-label"
-                          >
-                            Email Notifications
-                          </label>
-                          <div className="col-md-8 col-lg-9">
-                            <div className="form-check">
-                              <input
-                                className="form-check-input"
-                                type="checkbox"
-                                id="changesMade"
-                                checked
-                              />
-                              <label
-                                className="form-check-label"
-                                for="changesMade"
-                              >
-                                Changes made to your account
-                              </label>
-                            </div>
-                            <div className="form-check">
-                              <input
-                                className="form-check-input"
-                                type="checkbox"
-                                id="newProducts"
-                                checked
-                              />
-                              <label
-                                className="form-check-label"
-                                for="newProducts"
-                              >
-                                Information on new products and services
-                              </label>
-                            </div>
-                            <div className="form-check">
-                              <input
-                                className="form-check-input"
-                                type="checkbox"
-                                id="proOffers"
-                              />
-                              <label
-                                className="form-check-label"
-                                for="proOffers"
-                              >
-                                Marketing and promo offers
-                              </label>
-                            </div>
-                            <div className="form-check">
-                              <input
-                                className="form-check-input"
-                                type="checkbox"
-                                id="securityNotify"
-                                checked
-                                disabled
-                              />
-                              <label
-                                className="form-check-label"
-                                for="securityNotify"
-                              >
-                                Security alerts
-                              </label>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="text-center">
-                          <button type="submit" className="btn btn-primary">
-                            Save Changes
-                          </button>
-                        </div>
-                      </form>
-                    </div>
-
+                
                     <div
                       className="tab-pane fade pt-3"
                       id="profile-change-password"

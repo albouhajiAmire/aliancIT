@@ -4,10 +4,16 @@
 #hero-slider .next{
     right: 2%;
     background-color: transparent;
+    display: none;
 }
 #hero-slider .prev{
    left: 2%;
     background-color: transparent;
+    display: none;
+}
+#hero-slider:hover .prev ,
+#hero-slider:hover .next{
+    display: block;
 }
 #hero-slider .arrow svg{
     color: white;

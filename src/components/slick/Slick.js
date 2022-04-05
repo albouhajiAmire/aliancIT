@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import './slick.css'
 import astronaut from "../../assets/img/clients/Audit-de-sécurité.png";
 import celebrating from "../../assets/img/clients/ajj7mghrfkrg_17hfv8vpcd_b.png";
 import education from "../../assets/img/clients/FEL-Planification-vnements_1920x1080-en.jpg";
@@ -9,7 +8,7 @@ import istockphoto from "../../assets/img/clients/istockphoto-1305083849-612x612
 import competitic from "../../assets/img/clients/2011-04-14-to-ip-by-competitic-25-320.jpg";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Slider from "react-slick";
-
+import "./slick.css";
 const images = [
   astronaut,
   celebrating,

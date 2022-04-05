@@ -1,5 +1,6 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+@import url(../../assets/css/variable.css);
 .slickapp {
     width: 100%;
     margin: 1rem auto;
@@ -41,11 +42,20 @@
   }
   
   .next {
-    right: 0%;
+    right:20px;
     top: 50%;
+    background:none;
+    font-size: 19px;
+    color: var(--color-green-rgb);
   }
   
   .prev {
-    left: 0%;
+    left: 20px;
     top: 50%;
+    background:none;
+    font-size: 19px;
+    color: var(--color-green-rgb);
+  }
+  .slick-dots{
+    bottom: 1px;
   }

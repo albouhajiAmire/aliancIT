@@ -2,16 +2,16 @@ import React from "react";
 import Pagination from "../../controle/pagination/Pagination";
 import Footer from "../footer/Footer";
 import Article from "./articles/Article";
-import './main.css'
+import "../../assets/css/main.css"
 function Index() {
   return (
     <>
-      <section style={{marginTop:"5%"}}>
+      <section style={{ marginTop: "5%" }}>
         <div className="container">
-           <Article/>
-           <Pagination/>
-           <Footer/>
+          <Article />
+          <Pagination />
         </div>
+        <Footer />
       </section>
     </>
   );

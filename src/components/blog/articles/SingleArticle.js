@@ -22,6 +22,10 @@ function SingleArticle() {
                   13 Amazing Poems from Shel Silverstein with Valuable Life
                   Lessons
                 </h1>
+
+
+
+
                 <figure className="my-4">
                   <img src={Img} alt="" className="img-fluid img-article" />
                   <figcaption>
@@ -29,6 +33,16 @@ function SingleArticle() {
                     Explicabo, odit?{" "}
                   </figcaption>
                 </figure>
+
+                <div className="tools">
+                        <div><i class="fa-solid fa-comment"></i><span>12</span></div>
+                        <div><i class="fa-solid fa-thumbs-up"></i><span>13</span></div>
+                        <div><i class="fa-solid fa-heart"></i><span>14</span></div>
+                </div>
+
+
+
+
                 <p className="paragraphSingle">
                   Sunt reprehenderit, hic vel optio odit est dolore, distinctio
                   iure itaque enim pariatur ducimus. Rerum soluta, perspiciatis
@@ -80,65 +94,42 @@ function SingleArticle() {
                   culpa cum laudantium sunt doloremque modi possimus magni?
                   Perferendis cum repudiandae corrupti porro.
                 </p>
-                <figure className="my-4">
-                  <img src={Img} alt="" className="img-fluid img-article" />
-                  <figcaption>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Explicabo, odit?{" "}
-                  </figcaption>
-                </figure>
-                <p className="paragraphSingle">
-                  Quis molestiae, dolorem consequuntur labore perferendis enim
-                  accusantium commodi optio, sequi magnam ad consectetur iste
-                  omnis! Voluptatibus, quia officia esse necessitatibus magnam
-                  tempore reprehenderit quo aspernatur! Assumenda, minus dolorem
-                  repellendus corporis corrupti quia temporibus repudiandae in.
-                  Sit rem aut, consectetur repudiandae perferendis nemo alias,
-                  iure ipsam omnis quam soluta, nobis animi quis aliquam
-                  blanditiis at. Dicta nemo vero sequi exercitationem.
-                </p>
-                <p className="paragraphSingle">
-                  Architecto ex id at illum aperiam corporis, quidem magnam
-                  doloribus non eligendi delectus laborum porro molestiae beatae
-                  eveniet dolor odit optio soluta dolores! Eaque odit a nihil
-                  recusandae, error repellendus debitis ex autem ab commodi,
-                  maiores officiis doloribus provident optio, architecto
-                  assumenda! Nihil cum laboriosam eos dolore aliquid perferendis
-                  amet doloremque quibusdam odio soluta vero odit, ipsa,
-                  quisquam quod nulla.
-                </p>
-                <p className="paragraphSingle">
-                  Consequuntur corrupti fugiat quod! Ducimus sequi nemo illo ad
-                  necessitatibus amet nobis corporis et quasi. Optio cum neque
-                  fuga. Ad excepturi magnam quisquam ex voluptatibus vitae aut
-                  nam quidem doloribus, architecto perspiciatis sit consequatur
-                  pariatur alias animi expedita quas? Et doloribus voluptatibus
-                  perferendis qui fugiat voluptatum autem facere aspernatur
-                  quidem quae assumenda iste, sit similique, necessitatibus
-                  laborum magni. Ea, dolores!
-                </p>
-                <p className="paragraphSingle">
-                  Possimus temporibus rerum illo quia repudiandae provident sed
-                  quas atque. Ipsam adipisci accusamus iste optio illo aliquam
-                  molestias? Voluptatibus, veniam recusandae facilis nobis
-                  perspiciatis rem similique, nisi ad explicabo ipsa voluptatum,
-                  inventore molestiae natus adipisci? Fuga delectus quia
-                  assumenda totam aspernatur. Nobis hic ea rem, quaerat
-                  voluptate vero illum laboriosam omnis aspernatur labore, natus
-                  ex iusto ducimus exercitationem a officia.
-                </p>
+               
+                </div>
+
+
+              <div className="share">
+
+                <div class="btn_wrap">
+                  <span>Share</span>
+                  <div class="container">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-github"></i>
+                  </div>
+                </div>
+
               </div>
+
+              
+
+
+
+
+
 
               <div className="comments paragraphSingle">
                 <h5 className="comment-title py-4">2 Comments</h5>
+
+
                 <div className="comment d-flex mb-4">
                   <div className="flex-shrink-0">
                     <div className="avatar avatar-sm rounded-circle">
                       <img
-                        className={Img}
-                        src=""
+                        src={Img}
                         alt=""
-                        className="img-fluid img-article"
+                        className="avatar-img"
                       />
                     </div>
                   </div>
@@ -153,48 +144,6 @@ function SingleArticle() {
                       deserunt pariatur itaque laudantium impedit aliquam
                       eligendi repellendus excepturi quibusdam nobis esse
                       accusantium.
-                    </div>
-
-                    <div className="comment-replies bg-light p-3 mt-3 rounded">
-                      <h6 className="comment-replies-title mb-4 text-muted text-uppercase">
-                        2 replies
-                      </h6>
-
-                      <div className="reply d-flex mb-4">
-                        <div className="flex-shrink-0">
-                          <div className="avatar avatar-sm rounded-circle">
-                            <img className="avatar-img" src={Img1} alt="" />
-                          </div>
-                        </div>
-                        <div className="flex-grow-1 ms-2 ms-sm-3">
-                          <div className="reply-meta d-flex align-items-baseline">
-                            <h6 className="mb-0 me-2">Brandon Smith</h6>
-                            <span className="text-muted">2d</span>
-                          </div>
-                          <div className="reply-body">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit.
-                          </div>
-                        </div>
-                      </div>
-                      <div className="reply d-flex">
-                        <div className="flex-shrink-0">
-                          <div className="avatar avatar-sm rounded-circle">
-                            <img className="avatar-img" src={Img1} alt="" />
-                          </div>
-                        </div>
-                        <div className="flex-grow-1 ms-2 ms-sm-3">
-                          <div className="reply-meta d-flex align-items-baseline">
-                            <h6 className="mb-0 me-2">James Parsons</h6>
-                            <span className="text-muted">1d</span>
-                          </div>
-                          <div className="reply-body">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Distinctio dolore sed eos sapiente,
-                            praesentium.
-                          </div>
-                        </div>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -215,8 +164,18 @@ function SingleArticle() {
                       porro accusantium molestias sequi.
                     </div>
                   </div>
+               
+               
+               
+               
                 </div>
+              
+              
+              
               </div>
+
+
+              
 
               <div className="row justify-content-center mt-5 ">
                 <div className="col-lg-9 paragraphSingle">

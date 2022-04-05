@@ -1,6 +1,6 @@
 import React from "react";
 import "../../assets/css/general.css";
-import background from '../../assets/img/why-us.png'
+import background from '../../assets/img/svg/why-us.png'
 function OurJobs() {
   return (
     <>

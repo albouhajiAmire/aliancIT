@@ -1,19 +1,19 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import background1 from "../assets/img/backlogin.jpg";
-import "./style.css";
+import "../assets/css/login.css";
 function SignIn() {
   return (
     <>
       <div className="limiter">
         <div
-          className="container-login100"
+          className="container-login100 "
           style={{ backgroundImage: `url(${background1})` }}
         >
           <div className="wrap-login100 p-t-190 p-b-30 loginuser">
             <form className="login100-form validate-form">
               <div className="login100-form-avatar mb-3">
-                <img src="" alt="AVATAR" />
+                <img src={""} alt="AVATAR" />
               </div>
               <div
                 className="wrap-input100 validate-input m-b-10 mb-4"

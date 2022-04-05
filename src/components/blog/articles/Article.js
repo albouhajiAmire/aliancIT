@@ -1,7 +1,7 @@
 import React from "react";
 import Img from "../../../assets/img/post-slide-6.jpg";
 import Img1 from "../../../assets/img/person-2.jpg";
-import "../main.css";
+import "../../../assets/css/main.css";
 import Sliders from "../slider/Slider";
 import Header from "../../header/Header";
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../footer/Footer'
 import Header from '../header/Header'
-import './archive.css'
+import "../../assets/css/archive.css"
 function ArticleArchive() {
   return (
     <>

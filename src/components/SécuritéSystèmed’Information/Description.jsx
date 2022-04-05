@@ -1,5 +1,5 @@
 import React from "react";
-import Img from '../../assets/img/features-1.png'
+import Img from '../../assets/img/svg/features-1.png'
 import Slick from "../slick/Slick";
 
 

@@ -1,5 +1,5 @@
 import React ,{useState}from "react";
-import './style.css'
+import "./slider.css";
 import background from "../../../assets/img/post-slide-1.jpg";
 import background1 from "../../../assets/img/post-slide-2.jpg";
 import background2 from "../../../assets/img/post-slide-3.jpg";
@@ -101,14 +101,6 @@ function Sliders() {
                     ))}
                   </Slider>
                 </div>
-                <div className="custom-swiper-button-next">
-                  <span className="bi-chevron-right"></span>
-                </div>
-                <div className="custom-swiper-button-prev">
-                  <span className="bi-chevron-left"></span>
-                </div>
-
-                <div className="swiper-pagination"></div>
               </div>
             </div>
           </div>
