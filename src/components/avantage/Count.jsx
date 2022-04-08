@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../../assets/img/svg/skills.png";
+import Img from "../../assets/img/svg/statistique.svg"
 import "../../assets/css/general.css";
 
 function Count() {

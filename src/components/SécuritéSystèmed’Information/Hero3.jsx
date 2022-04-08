@@ -1,5 +1,5 @@
 import React from "react";
-import Img from '../../assets/img/svg/hero3-img.png'
+import Img from '../../assets/img/svg/dev_productivity.svg'
 function Hero3() {
   return (
     <>

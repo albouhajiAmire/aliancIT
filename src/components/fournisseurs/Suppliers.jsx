@@ -5,7 +5,7 @@ import Client2 from "../../assets/img/clients/jabra_logo.jpg"
 import Client3 from "../../assets/img/clients/box_logo_full.jpg"
 import Client4 from "../../assets/img/clients/hp.png"
 import Client5 from "../../assets/img/clients/logo_apc.png"
-import Client6 from "../../assets/img/clients/dell-emc.jpg"
+import Client6 from "../../assets/img/clients/dell-partner-platinum-logo-white-585x298.jpg"
 
 function Suppliers() {
   return (

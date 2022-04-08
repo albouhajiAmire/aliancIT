@@ -1,13 +1,13 @@
 import React from "react";
 import "../../assets/css/general.css";
-import background from '../../assets//img/clients/serveur.jpg'
-import Img1 from '../../assets/img/clients/kaspersky.png'
-import Img2 from '../../assets/img/clients/bit.png'
+import background from "../../assets/img/team/serveur.jpg";
+import Img1 from "../../assets/img/clients/kaspersky.png";
+import Img2 from "../../assets/img/clients/bit.png";
 
 function Sécurité() {
   return (
     <>
-      <section id="services" className="services">
+      {/* <section id="services" className="services">
         <div className="container">
           <div className="section-title" data-aos="fade-up">
             <h2>Sécurité Système d’Information :</h2>
@@ -19,7 +19,7 @@ function Sécurité() {
             <div className="col-md-4 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
               <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
                 <div className="icon">
-                  {/* <i className="bx bxl-dribbble"></i> */}
+                 
                   <img src={Img1} alt="" style={{width:"60%"}}/>
                 </div>
                 <h4 className="title">
@@ -78,9 +78,12 @@ function Sécurité() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section id="more-services" className="more-services">
         <div className="container">
+          <div className="section-title" data-aos="fade-up">
+            <h2>Sécurité Système d’Information :</h2>
+          </div>
           <div className="row">
             <div className="col-md-4 d-flex align-items-stretch">
               <div
@@ -128,30 +131,7 @@ function Sécurité() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 d-flex align-items-stretch mt-4">
-              <div
-                className="card"
-                style={{ backgroundImage: `url(${background})` }}
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div className="card-body">
-                  <h5 className="card-title">
-                    <a href="">Nive Lodo</a>
-                  </h5>
-                  <p className="card-text">
-                    Nemo enim ipsam voluptatem quia voluptas sit aut odit aut
-                    fugit, sed quia magni dolores.
-                  </p>
-                  <div className="read-more">
-                    <a href="#">
-                      <i className="bi bi-arrow-right"></i> Read More
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-4 d-flex align-items-stretch mt-4">
+            <div className="col-md-4 d-flex align-items-stretch ">
               <div
                 className="card"
                 style={{ backgroundImage: `url(${background})` }}

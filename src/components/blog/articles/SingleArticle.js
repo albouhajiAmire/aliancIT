@@ -1,6 +1,5 @@
 import React from "react";
-import Img from "../../../assets/img/post-slide-6.jpg";
-import Img1 from "../../../assets/img/person-2.jpg";
+import Img from "../../../assets/img/team/post-slide-6.jpg";
 import Footer from "../../footer/Footer";
 import Header from "../../header/Header";
 
@@ -14,18 +13,14 @@ function SingleArticle() {
             <div className="col-md-9 post-content" data-aos="fade-up">
               <div className="single-post">
                 <div className="post-meta">
-                  <span className="date">Business</span>{" "}
-                  <span className="mx-1">&bullet;</span>{" "}
+                  <span className="date">Business</span>
+                  <span className="mx-1">&bullet;</span>
                   <span>Jul 5th '22</span>
                 </div>
                 <h1 className="mb-5">
                   13 Amazing Poems from Shel Silverstein with Valuable Life
                   Lessons
                 </h1>
-
-
-
-
                 <figure className="my-4">
                   <img src={Img} alt="" className="img-fluid img-article" />
                   <figcaption>
@@ -33,16 +28,11 @@ function SingleArticle() {
                     Explicabo, odit?{" "}
                   </figcaption>
                 </figure>
-
                 <div className="tools">
-                        <div><i class="fa-solid fa-comment"></i><span>12</span></div>
-                        <div><i class="fa-solid fa-thumbs-up"></i><span>13</span></div>
-                        <div><i class="fa-solid fa-heart"></i><span>14</span></div>
+                        <div><i className="fa-solid fa-comment"></i><span>12</span></div>
+                        <div><i className="fa-solid fa-thumbs-up"></i><span>13</span></div>
+                        <div><i className="fa-solid fa-heart"></i><span>14</span></div>
                 </div>
-
-
-
-
                 <p className="paragraphSingle">
                   Sunt reprehenderit, hic vel optio odit est dolore, distinctio
                   iure itaque enim pariatur ducimus. Rerum soluta, perspiciatis
@@ -100,25 +90,17 @@ function SingleArticle() {
 
               <div className="share">
 
-                <div class="btn_wrap">
+                <div className="btn_wrap">
                   <span>Share</span>
-                  <div class="container">
-                    <i class="fab fa-facebook-f"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-github"></i>
+                  <div className="container">
+                    <i className="fab fa-facebook-f"></i>
+                    <i className="fab fa-twitter"></i>
+                    <i className="fab fa-instagram"></i>
+                    <i className="fab fa-github"></i>
                   </div>
                 </div>
 
               </div>
-
-              
-
-
-
-
-
-
               <div className="comments paragraphSingle">
                 <h5 className="comment-title py-4">2 Comments</h5>
 
@@ -578,42 +560,42 @@ function SingleArticle() {
                 <ul className="aside-links list-unstyled">
                   <li>
                     <a href="">
-                      <i class="fas fa-chevron-right"></i> Business
+                      <i className="fas fa-chevron-right"></i> Business
                     </a>
                   </li>
                   <li>
                     <a href="category.html">
-                      <i class="fas fa-chevron-right"></i> Culture
+                      <i className="fas fa-chevron-right"></i> Culture
                     </a>
                   </li>
                   <li>
                     <a href="category.html">
-                      <i class="fas fa-chevron-right"></i> Sport
+                      <i className="fas fa-chevron-right"></i> Sport
                     </a>
                   </li>
                   <li>
                     <a href="category.html">
-                      <i class="fas fa-chevron-right"></i> Food
+                      <i className="fas fa-chevron-right"></i> Food
                     </a>
                   </li>
                   <li>
                     <a href="category.html">
-                      <i class="fas fa-chevron-right"></i> Politics
+                      <i className="fas fa-chevron-right"></i> Politics
                     </a>
                   </li>
                   <li>
                     <a href="category.html">
-                      <i class="fas fa-chevron-right"></i> Celebrity
+                      <i className="fas fa-chevron-right"></i> Celebrity
                     </a>
                   </li>
                   <li>
                     <a href="category.html">
-                      <i class="fas fa-chevron-right"></i> Startups
+                      <i className="fas fa-chevron-right"></i> Startups
                     </a>
                   </li>
                   <li>
                     <a href="category.html">
-                      <i class="fas fa-chevron-right"></i> Travel
+                      <i className="fas fa-chevron-right"></i> Travel
                     </a>
                   </li>
                 </ul>

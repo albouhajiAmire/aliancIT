@@ -1,5 +1,6 @@
 import React from "react";
-import Img from "../../assets/img/svg/hero-img1.png";
+import Img1 from "../../assets/img/svg/slider1.svg";
+import Img2 from "../../assets/img/svg/slider2.svg";
 import Slider from "react-slick";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 function ServiceOffer() {
@@ -18,7 +19,6 @@ function ServiceOffer() {
       </div>
     );
   };
-
   const settings = {
     infinite: true,
     lazyLoad: true,
@@ -27,14 +27,23 @@ function ServiceOffer() {
     slidesToShow: 1,
     centerMode: true,
     centerPadding: 0,
+    autoplay: true,
+    autoplatSpeed: 1600,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
-
   return (
     <>
+    <div className="anim-elements">
+                <div className="anim-element"><i className="fas fa-thumbs-up"></i></div>
+                <div className="anim-element"><i className="fas fa-comments"></i></div>
+                <div className="anim-element"><i className="fas fa-heart"></i></div>
+                <div className="anim-element"><i className="fas fa-users"></i></div>
+                <div className="anim-element"><i className="fas fa-grin-beam"></i></div>
+            </div>
       <Slider {...settings}>
         <div className="slide activeSlide swiper-slide">
+
           <section id="hero" className="d-flex align-items-center">
             <div className="container">
               <div className="row">
@@ -49,7 +58,6 @@ function ServiceOffer() {
                     <a href="#about" className="btn-get-started scrollto">
                       Commencer
                     </a>
-
                     <a
                       href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
                       target="_blank"
@@ -65,7 +73,7 @@ function ServiceOffer() {
                   data-aos="zoom-in"
                   data-aos-delay="200"
                 >
-                  <img src={Img} className="img-fluid animated" alt="" />
+                  <img src={Img1} className="img-fluid animated" alt="" />
                 </div>
               </div>
             </div>
@@ -86,7 +94,6 @@ function ServiceOffer() {
                     <a href="#about" className="btn-get-started scrollto">
                       Commencer
                     </a>
-
                     <a
                       href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
                       target="_blank"
@@ -102,7 +109,7 @@ function ServiceOffer() {
                   data-aos="zoom-in"
                   data-aos-delay="200"
                 >
-                  <img src={Img} className="img-fluid animated" alt="" />
+                  <img src={Img2} className="img-fluid animated" alt="" />
                 </div>
               </div>
             </div>

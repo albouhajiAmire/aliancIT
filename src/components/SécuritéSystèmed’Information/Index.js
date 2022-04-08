@@ -1,6 +1,4 @@
 import React from "react";
-import Head from "./Head";
-import TitleHead from "./TitleHead";
 import Description from "./Description";
 import Footer from "../footer/Footer";
 import Header from "../header/Header";

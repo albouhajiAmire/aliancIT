@@ -6,12 +6,9 @@ function Contact() {
       <section id="contact" className="contact">
         <div className="container" data-aos="fade-up">
           <div className=" section-title">
-            <h2>Contact</h2>
+            <h2>Écrivez-nous</h2>
             <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
+            Contactez-nous et nous vous remercions de votre intéret.
             </p>
           </div>
 
@@ -20,20 +17,20 @@ function Contact() {
               <div className="info">
                 <div className="address">
                 <i className="fa fa-location-arrow" aria-hidden="true"></i>
-                  <h4>Location:</h4>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <h4>Lieu :</h4>
+                  <p>15 Avenue Al Abtal App N°4 Agdal.Rabat</p>
                 </div>
 
                 <div className="email">
                 <i className="fa fa-envelope" aria-hidden="true"></i>
-                  <h4>Email:</h4>
-                  <p>info@example.com</p>
+                  <h4>E-mail :</h4>
+                  <p>alliances.itservices@gmail.com</p>
                 </div>
 
                 <div className="phone">
                 <i className="fa fa-phone" aria-hidden="true"></i>
-                  <h4>Call:</h4>
-                  <p>+1 5589 55488 55s</p>
+                  <h4>Appel :</h4>
+                  <p>+212 661 174 823</p>
                 </div>
 
                 <iframe
@@ -54,7 +51,7 @@ function Contact() {
               >
                 <div className="row">
                   <div className="form-group col-md-6">
-                    <label htmlFor="name">Your Name</label>
+                    <label htmlFor="name">Votre nom</label>
                     <input
                       type="text"
                       name="name"
@@ -64,7 +61,7 @@ function Contact() {
                     />
                   </div>
                   <div className="form-group col-md-6">
-                    <label htmlFor="name">Your Email</label>
+                    <label htmlFor="name">Votre e-mail</label>
                     <input
                       type="email"
                       className="form-control"
@@ -75,7 +72,7 @@ function Contact() {
                   </div>
                 </div>
                 <div className="form-group">
-                  <label htmlFor="name">Subject</label>
+                  <label htmlFor="name">Sujet</label>
                   <input
                     type="text"
                     className="form-control"
@@ -95,14 +92,14 @@ function Contact() {
                 </div>
                 
                 <div className="my-3">
-                  <div className="loading">Loading</div>
+                  <div className="loading">Chargement</div>
                   <div className="error-message"></div>
                   <div className="sent-message">
-                    Your message has been sent. Thank you!
+                  Votre message a été envoyé. Merci!
                   </div>
                 </div>
                 <div className="text-center">
-                  <button type="submit">Send Message</button>
+                  <button type="submit">Envoyer le message</button>
                 </div>
               </form>
             </div>

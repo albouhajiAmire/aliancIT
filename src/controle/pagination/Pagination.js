@@ -5,7 +5,7 @@ function Pagination() {
     <>
       <div className="text-start py-4">
         <div className="custom-pagination">
-          <a href="#" className="prev">
+          <a href="#" className="prevv">
             Prevous
           </a>
           <a href="#" className="active">
@@ -15,7 +15,7 @@ function Pagination() {
           <a href="#">3</a>
           <a href="#">4</a>
           <a href="#">5</a>
-          <a href="#" className="next">
+          <a href="#" className="nextt">
             Next
           </a>
         </div>

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
-import astronaut from "../../assets/img/clients/Audit-de-sécurité.png";
-import celebrating from "../../assets/img/clients/ajj7mghrfkrg_17hfv8vpcd_b.png";
-import education from "../../assets/img/clients/FEL-Planification-vnements_1920x1080-en.jpg";
-import taken from "../../assets/img/clients/Traditional-vs-Virtual.png";
-import informatique from "../../assets/img/clients/brassage-salle-informatique.jpeg";
-import istockphoto from "../../assets/img/clients/istockphoto-1305083849-612x612.jpg";
-import competitic from "../../assets/img/clients/2011-04-14-to-ip-by-competitic-25-320.jpg";
+import astronaut from "../../assets/img/team/Audit-de-sécurité.png";
+import celebrating from "../../assets/img/team/ajj7mghrfkrg_17hfv8vpcd_b.png";
+import education from "../../assets/img/team/FEL-Planification-vnements_1920x1080-en.jpg";
+import taken from "../../assets/img/team/Traditional-vs-Virtual.png";
+import informatique from "../../assets/img/team/brassage-salle-informatique.jpeg";
+import istockphoto from "../../assets/img/team/istockphoto-1305083849-612x612.jpg";
+import competitic from "../../assets/img/team/2011-04-14-to-ip-by-competitic-25-320.jpg";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Slider from "react-slick";
 import "./slick.css";

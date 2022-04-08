@@ -1,12 +1,11 @@
 import React from "react";
-import Img1 from "../../assets/img/clients/p1.jpg";
-import Img2 from "../../assets/img/clients/p2.jpg";
-import Img3 from "../../assets/img/clients/p3.jpg";
-import Img4 from "../../assets/img/clients/Traditional-vs-Virtual.png";
-import Img5 from "../../assets/img/clients/brassage-salle-informatique.jpeg";
-import Img6 from "../../assets/img/clients/istockphoto-1305083849-612x612.jpg";
-import Img7 from "../../assets/img/clients/p4.jpg";
-
+import Img1 from "../../assets/img/team/p1.jpg";
+import Img2 from "../../assets/img/team/p2.jpg";
+import Img3 from "../../assets/img/team/p3.jpg";
+import Img4 from "../../assets/img/team/Traditional-vs-Virtual.png";
+import Img5 from "../../assets/img/team/brassage-salle-informatique.jpeg";
+import Img6 from "../../assets/img/team/istockphoto-1305083849-612x612.jpg";
+import Img7 from "../../assets/img/team/p4.jpg";
 
 function Information() {
   return (
@@ -16,7 +15,6 @@ function Information() {
           <div className="section-title" data-aos="fade-up">
             <h2>Audit système d’information :</h2>
           </div>
-
           <div
             className="row faq-item d-flex align-items-stretch"
             data-aos="fade-up"
@@ -36,7 +34,6 @@ function Information() {
               </p>
             </div>
           </div>
-
           <div
             className="row faq-item d-flex align-items-stretch"
             data-aos="fade-up"
@@ -56,7 +53,6 @@ function Information() {
               </p>
             </div>
           </div>
-
           <div
             className="row faq-item d-flex align-items-stretch"
             data-aos="fade-up"
@@ -76,7 +72,6 @@ function Information() {
               </p>
             </div>
           </div>
-
           <div
             className="row faq-item d-flex align-items-stretch"
             data-aos="fade-up"
@@ -96,7 +91,6 @@ function Information() {
               </p>
             </div>
           </div>
-
           <div
             className="row faq-item d-flex align-items-stretch"
             data-aos="fade-up"
@@ -150,7 +144,7 @@ function Information() {
                 celui-ci, un réseau de conducteurs et de connecteurs suffisants,
                 afin de pouvoir relier 2 points quelconques de cet immeuble par
                 n’importe quel type de réseau (voix, données, images)
-                indépendamment du nombre d’utilisateurs.{" "}
+                indépendamment du nombre d’utilisateurs.
               </p>
             </div>
           </div>

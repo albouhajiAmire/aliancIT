@@ -348,7 +348,7 @@
   .custom-pagination a:hover {
     background: rgba(var(--color-black-rgb), 0.1);
   }
-  .custom-pagination a.prev, .custom-pagination a.next {
+  .custom-pagination a.prevv, .custom-pagination a.nextt {
     width: auto !important;
     border-radius: 4px;
     padding-left: 10px;

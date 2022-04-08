@@ -8,14 +8,14 @@ function Footer() {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-6">
-                <h4>Join Our Newsletter</h4>
+                <h4>Rejoignez notre alliances it</h4>
                 <p>
-                  Tamen quem nulla quae legam multos aute sint culpa legam
-                  noster magna
+                  Bienvenue, votre participation est importante pour nous,
+                  merci!
                 </p>
                 <form action="" method="post">
                   <input type="email" name="email" />
-                  <input type="submit" value="Subscribe" />
+                  <input type="submit" value="S'abonner" />
                 </form>
               </div>
             </div>
@@ -26,90 +26,91 @@ function Footer() {
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-md-6 footer-contact">
-                <h3>Test</h3>
+                <h3>Alliances it</h3>
                 <p>
-                  A108 Adam Street <br />
-                  New York, NY 535022
                   <br />
-                  United States <br />
+                  15 Avenue Al Abtal App N°4
                   <br />
-                  <strong>Phone:</strong> +1 5589 55488 55
+                  Agdal.Rabat
                   <br />
-                  <strong>Email:</strong> info@example.com
+                  <br />
+                  <strong>Telephone :</strong> +212 661 174 823
+                  <br />
+                  <strong>E-mail :</strong> alliances.itservices@gmail.com
                   <br />
                 </p>
               </div>
 
               <div className="col-lg-3 col-md-6 footer-links">
-                <h4>Useful Links</h4>
+                <h4>Liens utiles</h4>
                 <ul>
                   <li>
-                  <i className="fa fa-chevron-right" aria-hidden="true"></i> <a href="#">Home</a>
+                    <i className="fa fa-chevron-right" aria-hidden="true"></i>{" "}
+                    <a href="#">accuille</a>
                   </li>
                   <li>
-                  <i className="fa fa-chevron-right" aria-hidden="true"></i> <a href="#">About us</a>
+                    <i className="fa fa-chevron-right" aria-hidden="true"></i>{" "}
+                    <a href="#">Qui sommes-nous</a>
                   </li>
                   <li>
-                  <i className="fa fa-chevron-right" aria-hidden="true"></i> <a href="#">Services</a>
+                    <i className="fa fa-chevron-right" aria-hidden="true"></i>{" "}
+                    <a href="#">Services</a>
                   </li>
                   <li>
-                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                    <a href="#">Terms of service</a>
+                    <i className="fa fa-chevron-right" aria-hidden="true"></i>
+                    <a href="#">Contact</a>
                   </li>
                   <li>
-                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
-                    <a href="#">Privacy policy</a>
+                    <i className="fa fa-chevron-right" aria-hidden="true"></i>
+                    <a href="#">développeurs</a>
                   </li>
                 </ul>
               </div>
 
               <div className="col-lg-3 col-md-6 footer-links">
-                <h4>Our Services</h4>
+                <h4>Nos services</h4>
                 <ul>
                   <li>
-                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
+                    <i className="fa fa-chevron-right" aria-hidden="true"></i>
                     <a href="#">Web Design</a>
                   </li>
                   <li>
-                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
+                    <i className="fa fa-chevron-right" aria-hidden="true"></i>
                     <a href="#">Web Development</a>
                   </li>
                   <li>
-                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
+                    <i className="fa fa-chevron-right" aria-hidden="true"></i>
                     <a href="#">Product Management</a>
                   </li>
                   <li>
-                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
+                    <i className="fa fa-chevron-right" aria-hidden="true"></i>
                     <a href="#">Marketing</a>
                   </li>
                   <li>
-                  <i className="fa fa-chevron-right" aria-hidden="true"></i>
+                    <i className="fa fa-chevron-right" aria-hidden="true"></i>
                     <a href="#">Graphic Design</a>
                   </li>
                 </ul>
               </div>
 
               <div className="col-lg-3 col-md-6 footer-links">
-                <h4>Our Social Networks</h4>
-                <p>
-                  Cras fermentum odio eu feugiat lide par naso tierra videa
-                  magna derita valies
-                </p>
+                <h4>Nos réseaux sociaux</h4>
+                <p>Nos pages sur les réseaux sociaux</p>
                 <div className="social-links mt-3">
                   <a href="#" className="twitter">
-                  <i className="fa-brands fa-twitter" aria-hidden="true"></i>
+                    <i className="fa-brands fa-twitter" aria-hidden="true"></i>
                   </a>
                   <a href="#" className="facebook">
-                  <i className="fa-brands fa-facebook" aria-hidden="true"></i>
+                    <i className="fa-brands fa-facebook" aria-hidden="true"></i>
                   </a>
                   <a href="#" className="instagram">
-                  <i className="fa-brands fa-skype" aria-hidden="true"></i>
+                    <i className="fa-brands fa-skype" aria-hidden="true"></i>
                   </a>
                   <a href="#" className="whatsapp">
-                  <i className="fa-brands fa-whatsapp" aria-hidden="true"></i>
+                    <i className="fa-brands fa-whatsapp" aria-hidden="true"></i>
                   </a>
                   <a href="#" className="linkedin">
-                  <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
+                    <i className="fa-brands fa-linkedin" aria-hidden="true"></i>
                   </a>
                 </div>
               </div>
@@ -119,20 +120,24 @@ function Footer() {
 
         <div className="container footer-bottom clearfix">
           <div className="copyright">
-            &copy; Copyright{" "}
+            &copy; droits d'auteur
             <strong>
-              <span>Arsha</span>
+              <span>alliances it</span>
             </strong>
-            . All Rights Reserved
+            .Tous les droits sont réservés
           </div>
           <div className="credits">
-            Designed by <a href="#">Test</a>
+            développeurs by <a href="#">amine albouhaji & karim manssour</a>
           </div>
         </div>
       </footer>
 
-      <a href="#" className="back-to-top d-flex align-items-center justify-content-center active"><i className="fa-solid fa-arrow-up"></i></a>
-  
+      <a
+        href="#"
+        className="back-to-top d-flex align-items-center justify-content-center active"
+      >
+        <i className="fa-solid fa-arrow-up"></i>
+      </a>
     </>
   );
 }

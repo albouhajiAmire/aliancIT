@@ -1,9 +1,9 @@
 import React ,{useState}from "react";
 import "./slider.css";
-import background from "../../../assets/img/post-slide-1.jpg";
-import background1 from "../../../assets/img/post-slide-2.jpg";
-import background2 from "../../../assets/img/post-slide-3.jpg";
-import background3 from "../../../assets/img/post-slide-1.jpg";
+import background from "../../../assets/img/team/post-slide-1.jpg";
+import background1 from "../../../assets/img/team/post-slide-2.jpg";
+import background2 from "../../../assets/img/team/post-slide-3.jpg";
+import background3 from "../../../assets/img/team/post-slide-1.jpg";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import Slider from "react-slick";
 
@@ -47,7 +47,7 @@ function Sliders() {
 
   const PrevArrow = ({ onClick }) => {
     return (
-      <div className="arrow prev" onClick={onClick}>
+      <div className="arrow prev " style={{marginTop:'12px'}} onClick={onClick}>
         <FaArrowLeft />
       </div>
     );
@@ -86,6 +86,7 @@ function Sliders() {
                             ? "slide activeSlide swiper-slide"
                             : "slide swiper-slide  "
                         }
+                        // className={classNames('slide swiper-slide', { activeSlide:  idx === imageIndex })}
                       >
                         <a
                           href="single-post.html"

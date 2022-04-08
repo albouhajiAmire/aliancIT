@@ -1,6 +1,6 @@
 import React from "react";
 import "../../assets/css/general.css";
-import Profil from "../../assets/img/clients/profil.jpeg"
+import Profil from "../../assets/img/svg/login.svg"
 function Team() {
   return (
     <>
@@ -8,12 +8,6 @@ function Team() {
         <div className="container" data-aos="fade-up">
           <div className="section-title">
             <h2>Équipe</h2>
-            {/* <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p> */}
           </div>
 
           <div className="row">

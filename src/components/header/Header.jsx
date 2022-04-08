@@ -22,21 +22,17 @@ const Header = () => {
   };
 
   return (
-    <div>
+    <>
       <header id="header" className="fixed-top ">
         <div className="container d-flex align-items-center">
           <h1 className="logo me-auto">
             <NavLink to="/">AllianceIt</NavLink>
           </h1>
-          {/* <NavLink to={""} href="index.html" className="logo me-auto">
-            <img src="" alt="" className="img-fluid" />
-          </NavLink> */}
-
           <nav id="navbar" className="navbar">
             <ul>
               <li>
                 <NavLink className="nav-link scrollto active" to="/">
-                  <i className="fas fa-acorn"></i> Accueil
+                  <i className="fas fa-acorn"></i> accueil
                 </NavLink>
               </li>
               <li>
@@ -46,7 +42,7 @@ const Header = () => {
               </li>
               <li>
                 <NavLink to="/information" className="nav-link scrollto">
-                  Information
+                  information
                 </NavLink>
               </li>
 
@@ -62,7 +58,8 @@ const Header = () => {
                   }}
                   href="#"
                 >
-                  <span>Langue</span>&nbsp; <i className="fa fa-chevron-down"></i>{" "}
+                  <span>Langue</span>&nbsp;{" "}
+                  <i className="fa fa-chevron-down"></i>{" "}
                 </a>
                 <ul>
                   <li>
@@ -74,15 +71,19 @@ const Header = () => {
 
                   <li>
                     <a href="#">
-                      <img className="logotranslate" src={logoe} alt="frensh" />{" "}
-                      Anglais
+                      <img className="logotranslate" src={logoe} alt="arabic" />{" "}
+                      Arabe
                     </a>
                   </li>
 
                   <li>
                     <a href="#">
-                      <img className="logotranslate" src={logoa} alt="frensh" />{" "}
-                      Arabic
+                      <img
+                        className="logotranslate"
+                        src={logoa}
+                        alt="english"
+                      />
+                      Anglais
                     </a>
                   </li>
                 </ul>
@@ -94,14 +95,14 @@ const Header = () => {
                   }}
                   href="#"
                 >
-                  <span>Articles</span>&nbsp; <i className="fa fa-chevron-down"></i>
+                  <span>Articles</span>&nbsp;{" "}
+                  <i className="fa fa-chevron-down"></i>
                 </a>
                 <ul>
                   <li>
-                    <NavLink to={"/article"}>articles</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to={"/signle"}>article</NavLink>
+                    <NavLink to={"/article"}>
+                      <i class="fa-solid fa-newspaper"></i>article
+                    </NavLink>
                   </li>
                 </ul>
               </li>
@@ -112,7 +113,8 @@ const Header = () => {
                   }}
                   href="#"
                 >
-                  <span>Archives</span>&nbsp;<i className="fa fa-chevron-down"></i>
+                  <span>Archives</span>&nbsp;
+                  <i className="fa fa-chevron-down"></i>
                 </a>
                 <ul>
                   <li>
@@ -129,7 +131,8 @@ const Header = () => {
                   }}
                   href="#"
                 >
-                  <span>Account</span>&nbsp; <i className="fa fa-chevron-down"></i>
+                  <span>Account</span>&nbsp;{" "}
+                  <i className="fa fa-chevron-down"></i>
                 </a>
                 <ul>
                   <li>
@@ -151,7 +154,11 @@ const Header = () => {
                 </ul>
               </li>
               <li>
-                <NavLink to={"/contact"} className="nav-link scrollto" href="/#contact">
+                <NavLink
+                  to={"/contact"}
+                  className="nav-link scrollto"
+                  href="/#contact"
+                >
                   Contact
                 </NavLink>
               </li>
@@ -161,7 +168,6 @@ const Header = () => {
                 </NavLink>
               </li>
             </ul>
-            {/* <i className="fa fa-list mobile-nav-toggle"></i> */}
             <i
               className="fa-solid fa-bars mobile-nav-toggle"
               onClick={(e) => {
@@ -171,7 +177,7 @@ const Header = () => {
           </nav>
         </div>
       </header>
-    </div>
+    </>
   );
 };
 

@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Header from "../header/Header";
 function Profil() {
   return (
@@ -10,10 +11,10 @@ function Profil() {
           <nav>
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <a href="index.html">Home</a>
+                <NavLink to={"/"}>accueil</NavLink>
               </li>
-              <li className="breadcrumb-item">Users</li>
-              <li className="breadcrumb-item active">Profile</li>
+              <li className="breadcrumb-item">utilisateurs</li>
+              <li className="breadcrumb-item active">profil</li>
             </ol>
           </nav>
         </div>
@@ -29,7 +30,7 @@ function Profil() {
                         data-bs-toggle="tab"
                         data-bs-target="#profile-overview"
                       >
-                        Overview
+                        Aperçu
                       </button>
                     </li>
 
@@ -39,7 +40,7 @@ function Profil() {
                         data-bs-toggle="tab"
                         data-bs-target="#profile-edit"
                       >
-                        Edit Profile
+                      modification le profil
                       </button>
                     </li>
 
@@ -49,7 +50,7 @@ function Profil() {
                         data-bs-toggle="tab"
                         data-bs-target="#profile-change-password"
                       >
-                        Change Password
+                       Changer le mot de passe
                       </button>
                     </li>
                   </ul>
@@ -58,7 +59,7 @@ function Profil() {
                       className="tab-pane fade show active profile-overview"
                       id="profile-overview"
                     >
-                      <h5 className="card-title">About</h5>
+                      <h5 className="card-title">Environ</h5>
                       <p className="small fst-italic">
                         Sunt est soluta temporibus accusantium neque nam maiores
                         cumque temporibus. Tempora libero non est unde veniam
@@ -67,24 +68,17 @@ function Profil() {
                         unde.
                       </p>
 
-                      <h5 className="card-title">Profile Details</h5>
+                      <h5 className="card-title">Détails du profil :</h5>
 
                       <div className="row">
                         <div className="col-lg-3 col-md-4 label ">
-                          Full Name
+                        Nom et prénom
                         </div>
                         <div className="col-lg-9 col-md-8">Kevin Anderson</div>
                       </div>
 
                       <div className="row">
-                        <div className="col-lg-3 col-md-4 label">Company</div>
-                        <div className="col-lg-9 col-md-8">
-                          Lueilwitz, Wisoky and Leuschke
-                        </div>
-                      </div>
-
-                      <div className="row">
-                        <div className="col-lg-3 col-md-4 label">Job</div>
+                        <div className="col-lg-3 col-md-4 label">Emploi :</div>
                         <div className="col-lg-9 col-md-8">Web Designer</div>
                       </div>
 
@@ -94,27 +88,27 @@ function Profil() {
                       </div>
 
                       <div className="row">
-                        <div className="col-lg-3 col-md-4 label">Address</div>
+                        <div className="col-lg-3 col-md-4 label">Address :</div>
                         <div className="col-lg-9 col-md-8">
                           A108 Adam Street, New York, NY 535022
                         </div>
                       </div>
 
                       <div className="row">
-                        <div className="col-lg-3 col-md-4 label">Phone</div>
+                        <div className="col-lg-3 col-md-4 label">Téléphone :</div>
                         <div className="col-lg-9 col-md-8">
                           (436) 486-3538 x29071
                         </div>
                       </div>
 
                       <div className="row">
-                        <div className="col-lg-3 col-md-4 label">Email</div>
+                        <div className="col-lg-3 col-md-4 label">E-mail :</div>
                         <div className="col-lg-9 col-md-8">
                           k.anderson@example.com
                         </div>
                       </div>
                     </div>
-
+{/* -------------------------------------------------------------------------------- */}
                     <div
                       className="tab-pane fade profile-edit pt-3"
                       id="profile-edit"
@@ -125,7 +119,7 @@ function Profil() {
                             for="profileImage"
                             className="col-md-4 col-lg-3 col-form-label"
                           >
-                            Profile Image
+                            Image de profil :
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <img className="avatar-edit" src={"https://upload.wikimedia.org/wikipedia/commons/f/f4/User_Avatar_2.png"} alt="Profile" />
@@ -151,9 +145,9 @@ function Profil() {
                         <div className="row mb-3">
                           <label
                             for="fullName"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            Full Name
+                            Nom & prénom :
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <input
@@ -168,9 +162,9 @@ function Profil() {
                         <div className="row mb-3">
                           <label
                             for="email"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            Email
+                            E-mail :
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <input
@@ -185,9 +179,9 @@ function Profil() {
                         <div className="row mb-3">
                           <label
                             for="about"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            About
+                            environ :
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <textarea
@@ -209,9 +203,9 @@ function Profil() {
                         <div className="row mb-3">
                           <label
                             for="company"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            Company
+                            Compagnie :
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <input
@@ -227,9 +221,9 @@ function Profil() {
                         <div className="row mb-3">
                           <label
                             for="Job"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            Job
+                            Emploi :
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <input
@@ -244,28 +238,10 @@ function Profil() {
 
                         <div className="row mb-3">
                           <label
-                            for="Country"
-                            className="col-md-4 col-lg-3 col-form-label"
-                          >
-                            Country
-                          </label>
-                          <div className="col-md-8 col-lg-9">
-                            <input
-                              name="country"
-                              type="text"
-                              className="form-control"
-                              id="Country"
-                              value="USA"
-                            />
-                          </div>
-                        </div>
-
-                        <div className="row mb-3">
-                          <label
                             for="Address"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            Address
+                            Adresse :
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <input
@@ -281,9 +257,9 @@ function Profil() {
                         <div className="row mb-3">
                           <label
                             for="Phone"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            Phone
+                            Téléphoner :
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <input
@@ -298,28 +274,10 @@ function Profil() {
 
                         <div className="row mb-3">
                           <label
-                            for="Email"
-                            className="col-md-4 col-lg-3 col-form-label"
-                          >
-                            Email
-                          </label>
-                          <div className="col-md-8 col-lg-9">
-                            <input
-                              name="email"
-                              type="email"
-                              className="form-control"
-                              id="Email"
-                              value="k.anderson@example.com"
-                            />
-                          </div>
-                        </div>
-
-                        <div className="row mb-3">
-                          <label
                             for="Twitter"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            Twitter Profile
+                            Twitter Profil
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <input
@@ -335,9 +293,9 @@ function Profil() {
                         <div className="row mb-3">
                           <label
                             for="Facebook"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            Facebook Profile
+                            Facebook Profil
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <input
@@ -353,9 +311,9 @@ function Profil() {
                         <div className="row mb-3">
                           <label
                             for="Instagram"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            Instagram Profile
+                            Instagram Profil
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <input
@@ -371,9 +329,9 @@ function Profil() {
                         <div className="row mb-3">
                           <label
                             for="Linkedin"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            Linkedin Profile
+                            Linkedin Profil
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <input
@@ -388,13 +346,13 @@ function Profil() {
 
                         <div className="text-center">
                           <button type="submit" className="btn btn-primary">
-                            Save Changes
+                          Sauvegarder les modifications
                           </button>
                         </div>
                       </form>
                     </div>
 
-                
+       {/*------------ ------------------------------------------------------- */}
                     <div
                       className="tab-pane fade pt-3"
                       id="profile-change-password"
@@ -403,9 +361,9 @@ function Profil() {
                         <div className="row mb-3">
                           <label
                             for="currentPassword"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            Current Password
+                          Mot de passe actuel :
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <input
@@ -420,9 +378,9 @@ function Profil() {
                         <div className="row mb-3">
                           <label
                             for="newPassword"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            New Password
+                           nouveau mot de passe :
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <input
@@ -437,9 +395,9 @@ function Profil() {
                         <div className="row mb-3">
                           <label
                             for="renewPassword"
-                            className="col-md-4 col-lg-3 col-form-label"
+                            className="col-md-4 col-lg-3 col-form-label label"
                           >
-                            Re-enter New Password
+                          Ré-entrez le nouveau mot de passe :
                           </label>
                           <div className="col-md-8 col-lg-9">
                             <input
@@ -453,7 +411,7 @@ function Profil() {
 
                         <div className="text-center">
                           <button type="submit" className="btn btn-primary">
-                            Change Password
+                          Changer le mot de passe
                           </button>
                         </div>
                       </form>

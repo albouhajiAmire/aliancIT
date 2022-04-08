@@ -42,19 +42,48 @@
   }
   
   .next {
-    right:20px;
+    /* right:20px;
     top: 50%;
     background:none;
     font-size: 19px;
-    color: var(--color-green-rgb);
+    color: var(--color-green-rgb); */
+    color: #fff !important;
+    background-color: var(--color-green-rgb);
+    color: #fff;
+    top: 50%;
+    left: 87%;
+    color: var(--color-green-rgb); 
+    opacity: 0.4;
+    width: 50px;
+    height: 50px;
+    line-height: 50px !important;
+    border-radius: 50% !important;
+    transform: translateY(-50%);
+    text-align: center;
+    -webkit-box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%);
   }
-  
+
   .prev {
-    left: 20px;
+    /* left: 20px;
     top: 50%;
     background:none;
     font-size: 19px;
-    color: var(--color-green-rgb);
+    color: var(--color-green-rgb); */
+    color: #fff !important;
+    background-color: var(--color-green-rgb);
+    top: 50%;
+    left: 8%;
+    color: var(--color-green-rgb); 
+    opacity: 0.4;
+    width: 50px;
+    height: 50px;
+    line-height: 50px !important;
+    border-radius: 50% !important;
+    transform: translateY(-50%);
+    text-align: center;
+    -webkit-box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%);
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 10%);
   }
   .slick-dots{
     bottom: 1px;

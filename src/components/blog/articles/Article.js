@@ -1,25 +1,25 @@
 import React from "react";
-import Img from "../../../assets/img/post-slide-6.jpg";
-import Img1 from "../../../assets/img/person-2.jpg";
+import Img from "../../../assets/img/team/post-slide-6.jpg";
+import Img1 from "../../../assets/img/team/person-2.jpg";
 import "../../../assets/css/main.css";
 import Sliders from "../slider/Slider";
 import Header from "../../header/Header";
+import { NavLink } from "react-router-dom";
 
 function Article() {
   return (
     <>
       <Header />
       <Sliders />
-      <section>
+      <section className="sectionarticle">
         <div className="container">
-          <div className="row">
+          <div className="row  mt-5">
             <div className="col-md-9" data-aos="fade-up">
               <h3 className="category-title">Category: Business</h3>
-
               <div className="d-md-flex post-entry-2 half">
-                <a href="single-post.html" className="me-4 thumbnail">
+                <NavLink to={"/signle"}  className="me-4 thumbnail">
                   <img src={Img} alt="" className="img-fluid artImg" />
-                </a>
+                </NavLink>
                 <div className="art">
                   <div className="post-meta">
                     <span className="date">Culture</span>
