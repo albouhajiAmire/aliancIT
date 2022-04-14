@@ -378,7 +378,7 @@ h6 {
   top: 0;
   left: 0;
   content: "";
-  background-image: url("../img/svg/bg-svg.svg");
+  /* background-image: url("../img/svg/bg-svg.svg"); */
   background-position: bottom center;
   background-size: contain;
   z-index: -1;
@@ -504,7 +504,8 @@ h6 {
     transform: translateY(-10px);
   }
 }
-/========== Animated Elements ==========/ .anim-elements {
+/* /========== Animated Elements ==========/  */
+.anim-elements {
   position: absolute;
   top: 0;
   left: 0;
@@ -855,7 +856,7 @@ h6 {
   top: 0;
   left: 0;
   content: "";
-  background-image: url("../img/svg/bg-svg.svg");
+  /* background-image: url("../img/svg/bg-svg.svg"); */
   background-position: bottom center;
   background-size: contain;
   z-index: -1;
@@ -1055,6 +1056,7 @@ h6 {
 }
 .detailss .content p:last-child {
   margin-bottom: 0;
+  font-size: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -1144,7 +1146,7 @@ h6 {
   border-left: 1px solid #eee;
 }
 .clientss .clientss-logo {
-  padding: 30px;
+  padding: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1152,10 +1154,9 @@ h6 {
   border-bottom: 1px solid #eee;
   overflow: hidden;
   background: #fff;
-  height: 120px;
+  height: 140px;
 }
 .clientss .clientss-logo img {
-  height: 15vh;
   width: 100%;
   filter: grayscale(100%);
   transition: 0.3s;
@@ -2224,7 +2225,7 @@ a {
   background: var(--color-green-rgb);
   color: #fff;
 }
-.contact .php-email-form {
+.contact .react-email-form {
   width: 100%;
   border-top: 3px solid var(--color-green-rgb);
   border-bottom: 3px solid var(--color-green-rgb);
@@ -2232,42 +2233,43 @@ a {
   background: #fff;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
-.contact .php-email-form .form-group {
+.contact .react-email-form .form-group {
   padding-bottom: 8px;
 }
-.contact .php-email-form .validate {
+.contact .react-email-form .validate {
   display: none;
   color: red;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
 }
-.contact .php-email-form .error-message {
+.contact .react-email-form .error-message {
   display: none;
-  color: #fff;
-  background: #ed3c0d;
+  color: red;
+  background: #f1f1f1;
   text-align: left;
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .error-message br + br {
+.contact .react-email-form .error-message br + br {
   margin-top: 25px;
 }
-.contact .php-email-form .sent-message {
+.contact .react-email-form .sent-message {
   display: none;
-  color: #fff;
-  background: #18d26e;
+  color: #18d26e;
+  background: #fff;
   text-align: center;
   padding: 15px;
   font-weight: 600;
 }
-.contact .php-email-form .loading {
+.contact .react-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
+  color: #3498db;
 }
-.contact .php-email-form .loading:before {
+.contact .react-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -2279,30 +2281,30 @@ a {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.contact .php-email-form .form-group {
+.contact .react-email-form .form-group {
   margin-bottom: 20px;
 }
-.contact .php-email-form label {
+.contact .react-email-form label {
   padding-bottom: 8px;
 }
-.contact .php-email-form input,
-.contact .php-email-form textarea {
+.contact .react-email-form input,
+.contact .react-email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   border-radius: 4px;
 }
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
+.contact .react-email-form input:focus,
+.contact .react-email-form textarea:focus {
   border-color: var(--color-green-rgb);
 }
-.contact .php-email-form input {
+.contact .react-email-form input {
   height: 44px;
 }
-.contact .php-email-form textarea {
+.contact .react-email-form textarea {
   padding: 10px 12px;
 }
-.contact .php-email-form button[type="submit"] {
+.contact .react-email-form button[type="submit"] {
   background: var(--color-green-rgb);
   border: 0;
   padding: 12px 34px;
@@ -2310,7 +2312,7 @@ a {
   transition: 0.4s;
   border-radius: 50px;
 }
-.contact .php-email-form button[type="submit"]:hover {
+.contact .react-email-form button[type="submit"]:hover {
   background: var(--color-green-rgb);
 }
 @-webkit-keyframes animate-loading {

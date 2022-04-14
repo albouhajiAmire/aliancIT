@@ -51,7 +51,7 @@ const Header = () => {
                   équipe
                 </NavLink>
               </li>
-              <li className="dropdown">
+              {/* <li className="dropdown">
                 <a
                   onClick={(e) => {
                     handleDropDown(e);
@@ -87,7 +87,7 @@ const Header = () => {
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="dropdown">
                 <a
                   onClick={(e) => {

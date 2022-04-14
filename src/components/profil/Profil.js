@@ -5,7 +5,7 @@ function Profil() {
   return (
     <>
     <Header/>
-      <div>
+      <>
         <div className="container pagetitle" style={{ marginTop: "10%" }}>
           <h1>Profile</h1>
           <nav>
@@ -422,7 +422,7 @@ function Profil() {
             </div>
           </div>
         </section>
-      </div>
+      </>
     </>
   );
 }

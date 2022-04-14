@@ -1,6 +1,19 @@
-import React from "react";
+import axios from "axios";
+import React ,{useState}from "react";
 import "../../assets/css/general.css";
 function Footer() {
+  const [subscribe, setSubscribe] = useState("");
+
+  const handleSubmit = (evt) => {
+    evt.preventDefault();
+    alert(`subscribing Name ${subscribe}`);
+    const dataToaSubmit = {
+      email:subscribe,
+    };
+    console.log(dataToaSubmit);
+    axios.post("http://localhost:3002/v1/api/subscribe/create", dataToaSubmit)
+    
+  };
   return (
     <>
       <footer id="footer">
@@ -13,15 +26,19 @@ function Footer() {
                   Bienvenue, votre participation est importante pour nous,
                   merci!
                 </p>
-                <form action="" method="post">
-                  <input type="email" name="email" />
+                <form action="" onSubmit={handleSubmit}>
+                  <input
+                    type="email"
+                    name="email"
+                    value={subscribe}
+                    onChange={(e) => setSubscribe(e.target.value)}
+                  />
                   <input type="submit" value="S'abonner" />
                 </form>
               </div>
             </div>
           </div>
         </div>
-
         <div className="footer-top">
           <div className="container">
             <div className="row">

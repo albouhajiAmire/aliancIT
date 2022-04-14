@@ -11,6 +11,9 @@ import Welcome from "./components/welcome/Welcome";
 import ArticleArchive from "./components/archives/ArticleArchive";
 import Profil from "./components/profil/Profil";
 import "./app.css";
+import LinkContact from "./pages/LinkContact";
+import Activate from "./auth/Activate";
+import EmailVerify from "./emailVerify";
 function App() {
   return (
     <BrowserRouter>
@@ -26,7 +29,8 @@ function App() {
           <Route path="/welcome" element={<Welcome />} />
           <Route path="/archive" element={<ArticleArchive />} />
           <Route path="/profil" element={<Profil />} />
-          <Route path="/confirmer/:id" element={<Welcome />} />
+          <Route path="/confirmer/:id" element={<EmailVerify />} />
+          <Route path="/contact" element={<LinkContact />} />
         </Routes>
       </div>
     </BrowserRouter>
