@@ -23,6 +23,7 @@ function SignIn() {
   const Register = (evt) => {
     evt.preventDefault();
     LoginAuth(loginData);
+    navigate.push("/profil")
   }
   return (
     <>

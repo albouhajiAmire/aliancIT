@@ -32,6 +32,7 @@ function SingleArticle() {
                         <div><i className="fa-solid fa-comment"></i><span>12</span></div>
                         <div><i className="fa-solid fa-thumbs-up"></i><span>13</span></div>
                         <div><i className="fa-solid fa-heart"></i><span>14</span></div>
+                        <div><i className="fa-solid fa-fire-flame-curved"></i><span>14</span></div>
                 </div>
                 <p className="paragraphSingle">
                   Sunt reprehenderit, hic vel optio odit est dolore, distinctio

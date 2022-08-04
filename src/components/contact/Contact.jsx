@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../../assets/css/general.css";
+import "./styleMessage.css";
 import { Create } from "../../services/contact";
 function Contact() {
   const [inputError, setInputError] = useState({
@@ -27,36 +28,36 @@ function Contact() {
 
     if (evt.target.name === "email") {
       if (evt.target.value.length <= 5) {
-        setInputError({ ...inputError, email: "email is required!" });
+        setInputError({ ...inputError, email: "e-mail obligatoire!" });
       } else if (!evt.target.value.includes("@")) {
         setInputError({
           ...inputError,
-          email: "you must enter your correct email",
+          email: "vous devez entrer votre email correct slt-p!!",
         });
       } else {
         setInputError({ ...inputError, email: "" });
       }
     } else if (evt.target.name === "firstname") {
       if (evt.target.value.length <= 2) {
-        setInputError({ ...inputError, firstname: "firstname is required!" });
+        setInputError({ ...inputError, firstname: " nom obligatoire!" });
       } else {
         setInputError({ ...inputError, firstname: "" });
       }
     } else if (evt.target.name === "lastname") {
       if (evt.target.value.length <= 2) {
-        setInputError({ ...inputError, lastname: "lastname  is required!" });
+        setInputError({ ...inputError, lastname: "prénom  obligatoire!" });
       } else {
         setInputError({ ...inputError, lastname: "" });
       }
     } else if (evt.target.name === "phone") {
       if (evt.target.value.length <= 2) {
-        setInputError({ ...inputError, phone: "phone  is required!" });
+        setInputError({ ...inputError, phone: "télephone obligatoire!" });
       } else {
         setInputError({ ...inputError, phone: "" });
       }
     } else if (evt.target.name === "comment") {
       if (evt.target.value.length <= 2) {
-        setInputError({ ...inputError, comment: "comment is required!" });
+        setInputError({ ...inputError, comment: "subject obligatoire!" });
       } else {
         setInputError({ ...inputError, comment: "" });
       }
@@ -65,7 +66,7 @@ function Contact() {
   const handleSubmit = (evt) => {
     evt.preventDefault();
     setStuff({ ...stuff, loader: true });
-
+    
     for (const input in inputError) {
       if (inputError[input] !== "") {
         alert("still error");
@@ -77,9 +78,10 @@ function Contact() {
         if (!data.err) {
           setStuff({
             loader: false,
-            successMessage: "validate",
+            successMessage: "Message d'opération réussie.",
             errorMessage: "",
           });
+          setFormData("");
         } else {
           setStuff({
             loader: false,
@@ -92,7 +94,7 @@ function Contact() {
         setStuff({
           loader: false,
           successMessage: "",
-          errorMessage: "error",
+          errorMessage: "Message d'erreur",
         });
       });
   };
@@ -140,10 +142,22 @@ function Contact() {
                 role="form"
                 className="react-email-form"
               >
+                {/* -----------------------REPENSE REQUEST MESSAGE -------------------  */}
                 <div className="row">
-                  {stuff.loader && <div>loading...</div>}
-                  {stuff.errorMessage && <div>{stuff.errorMessage}</div>}
-                  {stuff.successMessage && <div>{stuff.successMessage}</div>}
+                  {stuff.loader && (
+                    <div className="loading">
+                      <div className="ring">
+                        Chargement...
+                        <span className="spn"></span>
+                      </div>
+                    </div>
+                  )}
+                  {stuff.errorMessage && (
+                    <div className="error-msg">{stuff.errorMessage}</div>
+                  )}
+                  {stuff.successMessage && (
+                    <div className="succes">{stuff.successMessage}</div>
+                  )}
                   <div className="form-group col-md-6">
                     <label htmlFor="name">Votre nom (*)</label>
                     <input
@@ -156,7 +170,7 @@ function Contact() {
                       onChange={(evt) => handleInputChange(evt)}
                     />
                     {inputError.firstname !== "" && (
-                      <div>{inputError.firstname}</div>
+                      <div className="error">{inputError.firstname}</div>
                     )}
                   </div>
                   <div className="form-group col-md-6">
@@ -171,7 +185,7 @@ function Contact() {
                       onChange={(evt) => handleInputChange(evt)}
                     />
                     {inputError.lastname !== "" && (
-                      <div>{inputError.lastname}</div>
+                      <div className="error">{inputError.lastname}</div>
                     )}
                   </div>
                   <div className="form-group col-md-12">
@@ -185,7 +199,9 @@ function Contact() {
                       value={email}
                       onChange={(evt) => handleInputChange(evt)}
                     />
-                    {inputError.email !== "" && <div>{inputError.email}</div>}
+                    {inputError.email !== "" && (
+                      <div className="error">{inputError.email}</div>
+                    )}
                   </div>
                   <div className="form-group col-md-12">
                     <label htmlFor="name">Votre télephone </label>
@@ -198,7 +214,9 @@ function Contact() {
                       value={phone}
                       onChange={(evt) => handleInputChange(evt)}
                     />
-                    {inputError.phone !== "" && <div>{inputError.phone}</div>}
+                    {inputError.phone !== "" && (
+                      <div className="error">{inputError.phone}</div>
+                    )}
                   </div>
                 </div>
                 <div className="form-group">
@@ -210,20 +228,9 @@ function Contact() {
                     value={comment}
                     onChange={(evt) => handleInputChange(evt)}
                   ></textarea>
-                  {inputError.comment !== "" && <div>{inputError.comment}</div>}
-                </div>
-                {/* -----------------------REPENSE REQUEST MESSAGE -------------------  */}
-                <div className="my-3">
-                  <div className="loading">
-                    {stuff.loader && <div>Chargement...</div>}{" "}
-                  </div>
-                  <div className="error-message">
-                    {stuff.errorMessage && <div>{stuff.errorMessage}</div>}
-                  </div>
-                  <div className="sent-message">
-                    {stuff.successMessage && <div>{stuff.successMessage}</div>}
-                    Votre message a été envoyé. Merci!
-                  </div>
+                  {inputError.comment !== "" && (
+                    <div className="error">{inputError.comment}</div>
+                  )}
                 </div>
                 <div className="text-center">
                   <button type="submit">Envoyer le message</button>

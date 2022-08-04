@@ -140,7 +140,7 @@ function SignUp() {
           >
             {stuff.loader && <div>loading...</div>}
             {stuff.errorMessage && <div>{stuff.errorMessage}</div>}
-            {stuff.successMessage && <div>{stuff.successMessage}</div>}
+            {stuff.successMessage && <div >{stuff.successMessage}</div>}
             <form className="login100-form validate-form">
               <div className="login100-form-avatar">
                 <img src={Login} alt="AVATAR" />

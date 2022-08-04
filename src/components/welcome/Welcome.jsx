@@ -24,7 +24,7 @@ function Welcome() {
   });
   return (
     <>
-   <h2>acount confirmation :</h2>
+   <h2>account confirmation :</h2>
    <p>an email </p> <b>{userEmail}</b>
       <img src={`/img/${icon}_icon.png`} alt=''/>
       <p>check your email and back to proceed!</p>

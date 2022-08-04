@@ -24,7 +24,7 @@ function Article() {
                   <div className="post-meta">
                     <span className="date">Culture</span>
                     <span className="mx-1">&bullet;</span>{" "}
-                    <span>Jul 5th '22</span>
+                    <span>Jul 5th '22</span> 
                   </div>
                   <h3>
                     What is the son of Football Coach John Gruden, Deuce Gruden

@@ -150,7 +150,7 @@ function Footer() {
       </footer>
 
       <a
-        href="#"
+        href="#header"
         className="back-to-top d-flex align-items-center justify-content-center active"
       >
         <i className="fa-solid fa-arrow-up"></i>
